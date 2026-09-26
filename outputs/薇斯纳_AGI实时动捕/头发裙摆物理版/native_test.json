@@ -1,0 +1,84 @@
+{
+  "hair_rigids": 84,
+  "skirt_rigids": 112,
+  "body_colliders": 25,
+  "joints": 296,
+  "substeps": 2,
+  "solver_iterations": 20,
+  "collision_margin": 0.001,
+  "target_fps": 30,
+  "anchored_hair_roots": [
+    "髪K1右",
+    "髪M1右",
+    "髪B1右",
+    "髪G1左",
+    "髪B1左",
+    "髪K1左",
+    "髪L1右",
+    "髪N1左",
+    "髪F1左",
+    "髪G1右",
+    "髪L1左",
+    "髪A1"
+  ],
+  "thigh_collider_radius_scale": 1.08,
+  "scene_objects": 729,
+  "filter_constraints_before": 3162,
+  "filter_constraints_removed": 3136,
+  "filter_constraints_remaining": 26,
+  "rigids": 221,
+  "objects": 730,
+  "build_seconds": 7.503607899998315,
+  "frames": {
+    "1": {
+      "max_rigid_distance": 0.30139338375783664,
+      "sample_rigid": [
+        -0.07192131876945496,
+        -0.16871458292007446,
+        0.8286593556404114
+      ]
+    },
+    "35": {
+      "max_rigid_distance": 0.30115294325855657,
+      "sample_rigid": [
+        -0.05066339671611786,
+        -0.14945660531520844,
+        0.8211832642555237
+      ]
+    },
+    "65": {
+      "max_rigid_distance": 0.36267940304387736,
+      "sample_rigid": [
+        -0.0728144720196724,
+        -0.18002429604530334,
+        0.8306523561477661
+      ]
+    },
+    "90": {
+      "max_rigid_distance": 0.30133917697521045,
+      "sample_rigid": [
+        -0.05079274624586105,
+        -0.15187358856201172,
+        0.8213379383087158
+      ]
+    },
+    "145": {
+      "max_rigid_distance": 0.4126672765016222,
+      "sample_rigid": [
+        -0.057447101920843124,
+        -0.23556292057037354,
+        0.8564980626106262
+      ]
+    },
+    "150": {
+      "max_rigid_distance": 0.4101163827730352,
+      "sample_rigid": [
+        -0.05653133615851402,
+        -0.23531876504421234,
+        0.8572968244552612
+      ]
+    }
+  },
+  "mean_frame_ms": 8.855952666490339,
+  "max_frame_ms": 12.58909999160096
+}

@@ -1,0 +1,66 @@
+{
+  "origin": "AI-generated mannequin stills A/B/C; no human video frames",
+  "coded_resolution": [
+    720,
+    720
+  ],
+  "fps": 30,
+  "seconds_per_pose": 3.0,
+  "segments": [
+    {
+      "start_second": 0,
+      "end_second": 9,
+      "style": "原灰度对照",
+      "file": "01_gray_reference.mp4",
+      "sha256": "e97417afc2a2a6d630eba7e94220a42ff61112c10b26b845fa2f0c084df17f1a"
+    },
+    {
+      "start_second": 9,
+      "end_second": 18,
+      "style": "细节降到 384",
+      "file": "02_down_384.mp4",
+      "sha256": "7a0d457ad9fa67b20371b9002d4b72f0fd722f0f36be701100c4a23ddaddf4b7"
+    },
+    {
+      "start_second": 18,
+      "end_second": 27,
+      "style": "细节降到 256",
+      "file": "03_down_256.mp4",
+      "sha256": "e4fc87c9837cd666098230e83ffcc155e289c3ceb888a3e68e72bf755a364a45"
+    },
+    {
+      "start_second": 27,
+      "end_second": 36,
+      "style": "细节降到 160",
+      "file": "04_down_160.mp4",
+      "sha256": "a3b802b79e214033e85fbc7b47e3b1557b99d8680d324c65cd63e317b847038e"
+    },
+    {
+      "start_second": 36,
+      "end_second": 45,
+      "style": "16 级灰度",
+      "file": "05_levels_16.mp4",
+      "sha256": "63d4b58a4897d442422ad2ca9c75dbc36310e9f238af66d68effef2a344e9eb1"
+    },
+    {
+      "start_second": 45,
+      "end_second": 54,
+      "style": "8 级灰度",
+      "file": "06_levels_8.mp4",
+      "sha256": "becda16357b4cd3da823c7b0222d3af7bb3b8eeebe5d4b252a40bba8a84c531d"
+    },
+    {
+      "start_second": 54,
+      "end_second": 63,
+      "style": "4 级灰度",
+      "file": "07_levels_4.mp4",
+      "sha256": "788b8d02eee2a5cd875ccc00e067f2d7903507d029ea606c8dd4709719e2415b"
+    }
+  ],
+  "combined": {
+    "file": "00_灰度细节对照_63秒.mp4",
+    "duration_seconds": 63.0,
+    "frames": 1890,
+    "sha256": "31bd60c2d013c65aad6ffb7eed014119d706b8e56ab6da5d35a72bfeea15447e"
+  }
+}

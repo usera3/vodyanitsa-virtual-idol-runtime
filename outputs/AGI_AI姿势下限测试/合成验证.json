@@ -1,0 +1,100 @@
+{
+  "00_核心对照_54秒.mp4": {
+    "duration_seconds": 54.0,
+    "frames": 1620,
+    "sha256": "e014aff2dd78fac7b4ec5ceafab4d054d203b79bceff1d24a729a72b6a21e3c0",
+    "segments": [
+      {
+        "start_second": 0,
+        "end_second": 9,
+        "style": "AI 彩色人形",
+        "file": "01_AI彩色三姿势.mp4"
+      },
+      {
+        "start_second": 9,
+        "end_second": 18,
+        "style": "灰度人形",
+        "file": "02_灰度三姿势.mp4"
+      },
+      {
+        "start_second": 18,
+        "end_second": 27,
+        "style": "简化彩色人形",
+        "file": "03_简化彩色人形.mp4"
+      },
+      {
+        "start_second": 27,
+        "end_second": 36,
+        "style": "黑色人体剪影",
+        "file": "04_黑色人体剪影.mp4"
+      },
+      {
+        "start_second": 36,
+        "end_second": 45,
+        "style": "粗线火柴人",
+        "file": "05_粗线火柴人.mp4"
+      },
+      {
+        "start_second": 45,
+        "end_second": 54,
+        "style": "细线火柴人",
+        "file": "06_细线火柴人.mp4"
+      }
+    ]
+  },
+  "00_完整对照_72秒.mp4": {
+    "duration_seconds": 72.0,
+    "frames": 2160,
+    "sha256": "12ec7a12905cd9c9cbf3594e40a377b297227937772bc3d65d2ca60cd9eb4bdc",
+    "segments": [
+      {
+        "start_second": 0,
+        "end_second": 9,
+        "style": "AI 彩色人形",
+        "file": "01_AI彩色三姿势.mp4"
+      },
+      {
+        "start_second": 9,
+        "end_second": 18,
+        "style": "灰度人形",
+        "file": "02_灰度三姿势.mp4"
+      },
+      {
+        "start_second": 18,
+        "end_second": 27,
+        "style": "简化彩色人形",
+        "file": "03_简化彩色人形.mp4"
+      },
+      {
+        "start_second": 27,
+        "end_second": 36,
+        "style": "黑色人体剪影",
+        "file": "04_黑色人体剪影.mp4"
+      },
+      {
+        "start_second": 36,
+        "end_second": 45,
+        "style": "粗线火柴人",
+        "file": "05_粗线火柴人.mp4"
+      },
+      {
+        "start_second": 45,
+        "end_second": 54,
+        "style": "细线火柴人",
+        "file": "06_细线火柴人.mp4"
+      },
+      {
+        "start_second": 54,
+        "end_second": 63,
+        "style": "仅关节点",
+        "file": "07_仅关节点.mp4"
+      },
+      {
+        "start_second": 63,
+        "end_second": 72,
+        "style": "空白对照",
+        "file": "08_空白对照.mp4"
+      }
+    ]
+  }
+}

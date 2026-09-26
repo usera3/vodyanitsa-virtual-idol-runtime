@@ -1,0 +1,366 @@
+{
+  "schema_version": 1,
+  "qwen": {
+    "file": "D:\\AI\\Models\\Qwen3.8-27B-UD-IQ3_XXS\\Qwen3.8-27B-UD-IQ3_XXS.gguf",
+    "exists": true,
+    "bytes": 10934860704,
+    "format": "GGUF inference quantization",
+    "direct_peft_ready": false
+  },
+  "ardy": {
+    "files": [
+      {
+        "path": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\ardy_20260914_203510_62999e.npz",
+        "sha256": "b50c8daedccec9608514e642b24d91f5f61fdc9e7277f148356789521bb24aa0",
+        "frames": 100,
+        "fps": 20.0,
+        "seconds": 5.0,
+        "joint_count": 27,
+        "text": "A person walks forward and waves their right hand.",
+        "has_foot_contacts": true
+      },
+      {
+        "path": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\ardy_20260914_203529_f953aa.npz",
+        "sha256": "0e45115c0638388ead1d64da09ba699916502dab56b8f06d08943ab4161b2ef0",
+        "frames": 100,
+        "fps": 20.0,
+        "seconds": 5.0,
+        "joint_count": 27,
+        "text": "A person dances happily, stepping side to side and moving both arms.",
+        "has_foot_contacts": true
+      },
+      {
+        "path": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\ardy_20260914_204147_1fd90a.npz",
+        "sha256": "38fe0f8f0966b0f14f1067856eaa91ee44a9c7cc2fb9de8d21faa61e4726e2ae",
+        "frames": 100,
+        "fps": 20.0,
+        "seconds": 5.0,
+        "joint_count": 27,
+        "text": "A person dances happily, stepping side to side and moving both arms.",
+        "has_foot_contacts": true
+      },
+      {
+        "path": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\ardy_20260914_204322_ef4360.npz",
+        "sha256": "9c020a2296f4090156b369809cc9258f65adbe3f2e2ecf9a79ce45ae2146bcd3",
+        "frames": 100,
+        "fps": 20.0,
+        "seconds": 5.0,
+        "joint_count": 27,
+        "text": "A person jump",
+        "has_foot_contacts": true
+      },
+      {
+        "path": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\dance.npz",
+        "sha256": "0e45115c0638388ead1d64da09ba699916502dab56b8f06d08943ab4161b2ef0",
+        "frames": 100,
+        "fps": 20.0,
+        "seconds": 5.0,
+        "joint_count": 27,
+        "text": "A person dances happily, stepping side to side and moving both arms.",
+        "has_foot_contacts": true
+      },
+      {
+        "path": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\walk_wave.npz",
+        "sha256": "b50c8daedccec9608514e642b24d91f5f61fdc9e7277f148356789521bb24aa0",
+        "frames": 100,
+        "fps": 20.0,
+        "seconds": 5.0,
+        "joint_count": 27,
+        "text": "A person walks forward and waves their right hand.",
+        "has_foot_contacts": true
+      }
+    ],
+    "unique_files": 4,
+    "unique_seconds": 20.0,
+    "duplicates": {
+      "b50c8daedccec9608514e642b24d91f5f61fdc9e7277f148356789521bb24aa0": [
+        "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\ardy_20260914_203510_62999e.npz",
+        "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\walk_wave.npz"
+      ],
+      "0e45115c0638388ead1d64da09ba699916502dab56b8f06d08943ab4161b2ef0": [
+        "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\ardy_20260914_203529_f953aa.npz",
+        "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\dance.npz"
+      ]
+    }
+  },
+  "tagged_actions": [
+    {
+      "id": "daily-walk-wave-ardy",
+      "label": "走路挥手 · ARDY",
+      "tags": [
+        "日常",
+        "走路",
+        "挥手"
+      ],
+      "category": "daily",
+      "source": "ardy",
+      "clip_file": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\ardy-walk-wave.json",
+      "frames": 100,
+      "fps": 20.0,
+      "seconds": 5.0,
+      "source_sha256": "b50c8daedccec9608514e642b24d91f5f61fdc9e7277f148356789521bb24aa0"
+    },
+    {
+      "id": "daily-walk-wave-kimodo",
+      "label": "走路挥手 · Kimodo",
+      "tags": [
+        "日常",
+        "走路",
+        "挥手"
+      ],
+      "category": "daily",
+      "source": "kimodo",
+      "clip_file": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\kimodo-walk-wave.json",
+      "frames": 120,
+      "fps": 30.0,
+      "seconds": 4.0,
+      "source_sha256": "c8f078f1cb8fc8539a5403b9267773d3035948e093e144e647e22136f481f175"
+    },
+    {
+      "id": "dance-steps-a",
+      "label": "双臂舞步 A",
+      "tags": [
+        "舞蹈",
+        "双臂",
+        "侧步"
+      ],
+      "category": "dance",
+      "source": "ardy",
+      "clip_file": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\ardy-dance-a.json",
+      "frames": 100,
+      "fps": 20.0,
+      "seconds": 5.0,
+      "source_sha256": "0e45115c0638388ead1d64da09ba699916502dab56b8f06d08943ab4161b2ef0"
+    },
+    {
+      "id": "dance-steps-b",
+      "label": "双臂舞步 B",
+      "tags": [
+        "舞蹈",
+        "双臂",
+        "侧步"
+      ],
+      "category": "dance",
+      "source": "ardy",
+      "clip_file": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\ardy-dance-b.json",
+      "frames": 100,
+      "fps": 20.0,
+      "seconds": 5.0,
+      "source_sha256": "38fe0f8f0966b0f14f1067856eaa91ee44a9c7cc2fb9de8d21faa61e4726e2ae"
+    },
+    {
+      "id": "daily-cmu-13-10",
+      "label": "踮脚伸手",
+      "tags": [
+        "日常",
+        "踮脚",
+        "伸手"
+      ],
+      "category": "daily",
+      "source": "cmu",
+      "clip_file": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\cmu-13-10.json",
+      "frames": 599,
+      "fps": 30.0,
+      "seconds": 19.97,
+      "source_sha256": "0cae88c2ae622232040f4ea7a8251ea9b2c02f4c9e0d88610f6f5e05368a838d"
+    },
+    {
+      "id": "daily-cmu-13-27",
+      "label": "挥手指向",
+      "tags": [
+        "日常",
+        "挥手",
+        "指向"
+      ],
+      "category": "daily",
+      "source": "cmu",
+      "clip_file": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\cmu-13-27.json",
+      "frames": 1043,
+      "fps": 30.0,
+      "seconds": 34.77,
+      "source_sha256": "a39a336da6aedd372ea4f129f02a634a775853a92786510fad5a2a64356ad3ed"
+    },
+    {
+      "id": "daily-cmu-13-29",
+      "label": "热身组合",
+      "tags": [
+        "日常",
+        "热身",
+        "转体",
+        "下蹲"
+      ],
+      "category": "daily",
+      "source": "cmu",
+      "clip_file": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\cmu-13-29.json",
+      "frames": 1148,
+      "fps": 30.0,
+      "seconds": 38.27,
+      "source_sha256": "bdfcb61b78f4cc0c03c88f275de1e109fe94581a124dae604f1113dbb66691b7"
+    },
+    {
+      "id": "daily-cmu-15-06",
+      "label": "前倾伸手",
+      "tags": [
+        "日常",
+        "前倾",
+        "伸手"
+      ],
+      "category": "daily",
+      "source": "cmu",
+      "clip_file": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\cmu-15-06.json",
+      "frames": 901,
+      "fps": 30.0,
+      "seconds": 30.03,
+      "source_sha256": "171b1c9dabe0d044f1da669f1e00c7aeac17493b4a3eda1f89ebc1bf8b4f07cc"
+    },
+    {
+      "id": "daily-cmu-15-08",
+      "label": "前臂转动",
+      "tags": [
+        "日常",
+        "手势",
+        "前臂"
+      ],
+      "category": "daily",
+      "source": "cmu",
+      "clip_file": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\cmu-15-08.json",
+      "frames": 965,
+      "fps": 30.0,
+      "seconds": 32.17,
+      "source_sha256": "2278ff8fd818f78db124e6fee8e62d1ef8ea9d2d3181ab8cdb3c93a96dd36bc4"
+    },
+    {
+      "id": "daily-cmu-49-18",
+      "label": "单脚平衡",
+      "tags": [
+        "日常",
+        "平衡",
+        "单脚"
+      ],
+      "category": "daily",
+      "source": "cmu",
+      "clip_file": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\cmu-49-18.json",
+      "frames": 276,
+      "fps": 30.0,
+      "seconds": 9.2,
+      "source_sha256": "3c5a6c300713f8e712ed47978ee3058e3867e9be6bf5518a6a598e4244d9b484"
+    },
+    {
+      "id": "dance-cmu-05-02",
+      "label": "抬臂转圈",
+      "tags": [
+        "舞蹈",
+        "旋转",
+        "手臂"
+      ],
+      "category": "dance",
+      "source": "cmu",
+      "clip_file": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\cmu-05-02.json",
+      "frames": 281,
+      "fps": 30.0,
+      "seconds": 9.37,
+      "source_sha256": "e0ed825644ba91538e1931673e24e0b7095c6caffe03cd647bf2df7de6a5e5fc"
+    },
+    {
+      "id": "dance-cmu-05-03",
+      "label": "侧展转步",
+      "tags": [
+        "舞蹈",
+        "侧展",
+        "转步"
+      ],
+      "category": "dance",
+      "source": "cmu",
+      "clip_file": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\cmu-05-03.json",
+      "frames": 109,
+      "fps": 30.0,
+      "seconds": 3.63,
+      "source_sha256": "e754d009338bd6a7e5c7e4f5fd30375288af45c83a584de36d3d1043af52049a"
+    },
+    {
+      "id": "dance-cmu-05-07",
+      "label": "芭蕾转身",
+      "tags": [
+        "舞蹈",
+        "芭蕾",
+        "旋转"
+      ],
+      "category": "dance",
+      "source": "cmu",
+      "clip_file": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\cmu-05-07.json",
+      "frames": 298,
+      "fps": 30.0,
+      "seconds": 9.93,
+      "source_sha256": "429be7f444178f818903a9f1bbf42f7738a704d667d043ead8a028aa8b5aa6a6"
+    },
+    {
+      "id": "dance-cmu-05-11",
+      "label": "侧步旋转",
+      "tags": [
+        "舞蹈",
+        "侧步",
+        "旋转"
+      ],
+      "category": "dance",
+      "source": "cmu",
+      "clip_file": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\cmu-05-11.json",
+      "frames": 148,
+      "fps": 30.0,
+      "seconds": 4.93,
+      "source_sha256": "50e801a21638ee2abf89fadba0ac99acd6de1650fca3510dc790fdd600fb3418"
+    },
+    {
+      "id": "dance-cmu-05-12",
+      "label": "高举手臂旋身",
+      "tags": [
+        "舞蹈",
+        "高举手臂",
+        "旋身"
+      ],
+      "category": "dance",
+      "source": "cmu",
+      "clip_file": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\cmu-05-12.json",
+      "frames": 339,
+      "fps": 30.0,
+      "seconds": 11.3,
+      "source_sha256": "7844dba87ed9f7b09d868af7fb1d6cfed15adbe006ab1a57062c5cc21d883ca7"
+    },
+    {
+      "id": "dance-cmu-49-09",
+      "label": "高举双臂侧展",
+      "tags": [
+        "舞蹈",
+        "双臂",
+        "侧展"
+      ],
+      "category": "dance",
+      "source": "cmu",
+      "clip_file": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\cmu-49-09.json",
+      "frames": 480,
+      "fps": 30.0,
+      "seconds": 16.0,
+      "source_sha256": "e4b5a409e4ccbacd3e33c69ec1e758de5d53bca01b155a18597e099b5bb691dc"
+    }
+  ],
+  "mocap_export_candidates": [
+    {
+      "path": "C:\\Users\\mozi\\Downloads\\AGI_Mocap_终身测试\\export.bvh",
+      "bytes": 128901,
+      "format": ".bvh",
+      "label_status": "unlabeled",
+      "training_status": "needs_review_and_retarget"
+    },
+    {
+      "path": "C:\\Users\\mozi\\Downloads\\export.vmd",
+      "bytes": 1576199,
+      "format": ".vmd",
+      "label_status": "unlabeled",
+      "training_status": "needs_review_and_retarget"
+    }
+  ],
+  "readiness": {
+    "actor_policy_sft": "needs_labeled_state_action_examples",
+    "direct_motion_distillation": "insufficient_paired_motion_data",
+    "mocap_to_ardy": "needs_core27_retarget_and_quality_review"
+  }
+}

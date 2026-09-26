@@ -1,0 +1,111 @@
+{
+  "yurios_character_url": "http://127.0.0.1:8768/api/characters/yuri",
+  "motion_hub_url": "http://127.0.0.1:39538",
+  "actor": "vodyanitsa",
+  "require_actor_online": true,
+  "cooldown_seconds": 4.0,
+  "sse_timeout_seconds": 35.0,
+  "motion_hub_timeout_seconds": 2.0,
+  "status_file": "运行状态.json",
+  "audit_file": "审计记录.jsonl",
+  "interrupt_action_on_user_turn": true,
+  "hearing": {
+    "inbox_enabled": true,
+    "listen_port": 39545,
+    "input_device": "小度",
+    "yurios_chat_url": "http://127.0.0.1:8768/api/chat",
+    "model_path": "C:/Users/mozi/.cache/huggingface/hub/models--Systran--faster-whisper-base/snapshots/ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66"
+  },
+  "speech": {
+    "enabled": true,
+    "from_sse": false,
+    "python": "../虚拟偶像语音桥/.venv/Scripts/python.exe",
+    "bridge_script": "../虚拟偶像语音桥/voice_avatar_bridge.py",
+    "tts_url": "http://127.0.0.1:8091/v1/audio/speech",
+    "voice_port": 39543
+  },
+  "planner": {
+    "enabled": true,
+    "provider": "spark",
+    "model": "spark-x2.5-4b",
+    "base_url": "https://maas-api.cn-huabei-1.xf-yun.com/v2",
+    "credential_env": "YURIOS_MODEL_API_KEY_SPARK",
+    "credential_wsl_file": "/home/mozi/yurios-eval/runtime/.env",
+    "timeout_seconds": 15.0,
+    "confidence_threshold": 0.62,
+    "assistant_context_timeout_seconds": 90.0,
+    "scene": {
+      "description": "An empty standing stage in Blender with a flat floor and no interactive props or furniture.",
+      "available_interaction_objects": [],
+      "allow_object_interaction": false,
+      "forbidden_prompt_terms": [
+        "window",
+        "windowsill",
+        "window seat",
+        "seat",
+        "chair",
+        "table",
+        "door",
+        "wall",
+        "bed",
+        "sofa"
+      ]
+    }
+  },
+  "laya": {
+    "enabled": true,
+    "preload": true,
+    "python": "D:/AI/Laya/venv/Scripts/python.exe",
+    "worker": "laya_reflex_worker.py",
+    "device": "cuda",
+    "hf_home": "D:/AI/Laya/cache",
+    "embed_model": "D:/AI/Laya/bge-small-zh-v1.5",
+    "semantic_threshold": 0.75,
+    "choice_threshold": 0.62,
+    "motion_threshold": 0.08,
+    "no_motion_threshold": 0.02,
+    "start_timeout_seconds": 120.0,
+    "decision_timeout_seconds": 15.0,
+    "log_file": "laya-worker.log",
+    "semantic_override_threshold": 0.8,
+    "semantic_margin": 0.12
+  },
+  "ardy": {
+    "enabled": true,
+    "preload": true,
+    "python": "C:/Users/mozi/Documents/Codex/2026-09-14/ardy-github-blender/work/.ardy-venv/Scripts/python.exe",
+    "runtime": "C:/Users/mozi/Documents/Codex/2026-09-14/ardy-github-blender/outputs/Ardy_Citlali_Bridge/runtime.py",
+    "converter": "convert_ardy_clip.py",
+    "bus_source": "../Mocap动作总线/source",
+    "motion_dir": "C:/Users/mozi/Documents/Codex/2026-09-14/ardy-github-blender/outputs/motions",
+    "generated_dir": "../Mocap动作总线/clips/generated",
+    "library_file": "../Mocap动作总线/clips/generated/library.json",
+    "log_file": "ardy-worker.log",
+    "start_timeout_seconds": 180.0,
+    "generation_timeout_seconds": 240.0,
+    "keep_files": 0,
+    "generation_steps": 10,
+    "warmup": true
+  },
+  "rules": [],
+  "embodiment": {
+    "enabled": true,
+    "port": 39544,
+    "fps": 30,
+    "seed": 20260925,
+    "status_file": "拟人状态.json"
+  },
+  "curated_idle": {
+    "enabled": false,
+    "catalog_file": "../Mocap动作总线/clips/generated/curated_catalog.json",
+    "min_idle_seconds": 30.0,
+    "interval_min_seconds": 40.0,
+    "interval_max_seconds": 80.0,
+    "seed": 20260926
+  },
+  "pose_recovery": {
+    "enabled": true,
+    "request_file": "../沃雅妮莎_AGI实时动捕/头发裙摆物理版/维护请求.json",
+    "duration_seconds": 0.8
+  }
+}

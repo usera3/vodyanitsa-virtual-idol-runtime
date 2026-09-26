@@ -1,0 +1,11 @@
+{
+  "name": "Qwen3.8-27B Yuri partial GPU trial",
+  "url": "http://127.0.0.1:8085/v1",
+  "model": "qwen3.8-27b-local",
+  "model_file": "D:/AI/Models/Qwen3.8-27B-UD-IQ3_XXS/Qwen3.8-27B-UD-IQ3_XXS.gguf",
+  "context": 8192,
+  "gpu_layers": 32,
+  "kv_cache": "q4_0",
+  "reasoning": "off",
+  "fallback": "Agnes 3.0 Flash"
+}

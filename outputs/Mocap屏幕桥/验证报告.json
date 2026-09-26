@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "received_frames": 45,
+  "colors": [
+    0,
+    1,
+    2
+  ],
+  "sender_fps": 30.36,
+  "device": "OBS Virtual Camera",
+  "region": {
+    "left": 49,
+    "top": 78,
+    "width": 640,
+    "height": 360
+  },
+  "test": "Real MSS capture -> OBS Virtual Camera -> FFmpeg DirectShow",
+  "worker_stopped": true,
+  "reopen_after_stop": true
+}

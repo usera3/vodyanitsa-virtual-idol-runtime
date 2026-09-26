@@ -1,0 +1,14 @@
+{
+  "unrelated_animation_identical": true,
+  "frames": [
+    160,
+    760
+  ],
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "motion_blur": false,
+  "scope": "8 arm/hand bones and 30 fingers, no mesh/weight/material changes"
+}

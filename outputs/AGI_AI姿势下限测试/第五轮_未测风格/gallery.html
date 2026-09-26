@@ -1,0 +1,22 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AGI 未测风格画廊</title>
+<style>body{margin:0;background:#10151f;color:#f0f5ff;font:16px system-ui,"Microsoft YaHei"}.layout{display:grid;grid-template-columns:240px 1fr;height:100vh;min-height:650px}.menu{background:#192536;border-right:1px solid #40506a;padding:18px;overflow:auto}h1{font-size:19px;margin:0 0 8px}.muted{color:#aebed2;font-size:12px;line-height:1.5;margin:0 0 15px}button{font:inherit;cursor:pointer;color:inherit;background:#263548;border:1px solid #43546d;border-radius:8px;padding:9px 12px}.item{display:block;width:100%;margin:5px 0;text-align:left}.item.current{background:#235249;border-color:#61e4b7}.stage{min-width:0;display:flex;align-items:center;justify-content:center;padding:14px;background:#303942}.stage img{display:block;max-width:100%;max-height:calc(100vh - 28px);object-fit:contain;background:#fff}.foot{display:flex;gap:8px;margin-top:16px}.foot button{flex:1}@media(max-width:850px){.layout{grid-template-columns:170px 1fr}.menu{padding:10px}button{font-size:13px;padding:8px}}</style>
+<div class="layout"><aside class="menu"><h1>AGI 未测风格</h1><p class="muted">同一张 AI 绘制的举臂姿势。点左侧逐张显示；← → 可切换。推流时只框选右侧图像。</p><div id="items"></div><div class="foot"><button id="prev" type="button">← 上一张</button><button id="next" type="button">下一张 →</button></div></aside><main class="stage"><img id="stimulus" alt="待测视觉风格"></main></div>
+<script>
+const styles=[
+ ['总览','00_未测风格总览.png'],
+ ['01 高对比纹理二值图','01_binary_texture.png'],
+ ['02 人体照片轮廓线','02_photo_edges.png'],
+ ['03 照片负片','03_photo_negative.png'],
+ ['04 伪热成像','04_pseudo_thermal.png'],
+ ['05 伪深度图','05_pseudo_depth.png'],
+ ['06 OpenPose 彩色关节','06_openpose_rainbow.png'],
+ ['07 关节热力图','07_joint_heatmap.png'],
+ ['08 伪法线图','08_pseudo_normals.png'],
+ ['09 像素化彩色人像','09_pixelated_rgb.png']];
+let current=0;const list=document.getElementById('items'),image=document.getElementById('stimulus');
+styles.forEach(([label],index)=>{const button=document.createElement('button');button.type='button';button.className='item';button.textContent=label;button.onclick=()=>show(index);list.append(button)});
+function show(index){current=(index+styles.length)%styles.length;image.src=styles[current][1];image.alt=styles[current][0];image.style.imageRendering=current===9?'pixelated':'auto';document.title=styles[current][0]+' · AGI 未测风格画廊';for(const [i,button] of [...list.children].entries())button.classList.toggle('current',i===current)}
+document.getElementById('prev').onclick=()=>show(current-1);document.getElementById('next').onclick=()=>show(current+1);
+document.addEventListener('keydown',event=>{if(event.key==='ArrowLeft')show(current-1);if(event.key==='ArrowRight')show(current+1)});
+show(0);
+</script></html>

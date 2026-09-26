@@ -1,0 +1,167 @@
+{
+  "test": "packaged v2 hub, real AGI stream + generated ARDY/Kimodo replay",
+  "visual_character_test": false,
+  "passed": true,
+  "mixed_frames": 92,
+  "elapsed": 3.0310000000026776,
+  "mixed_bones": 54,
+  "mixed_blends": [
+    "A",
+    "Angry",
+    "Blink",
+    "Blink_L",
+    "Blink_R",
+    "E",
+    "Fun",
+    "I",
+    "Joy",
+    "LookDown",
+    "LookLeft",
+    "LookRight",
+    "LookUp",
+    "Neutral",
+    "O",
+    "Sorrow",
+    "U",
+    "Unknown"
+  ],
+  "raw_sample_counts": {
+    "/VMC/Ext/Bone/Pos": 166,
+    "/VMC/Ext/Blend/Val": 54,
+    "/VMC/Ext/Blend/Apply": 3,
+    "/VMC/Ext/Tra/Pos": 18,
+    "/VMC/Ext/OK": 3,
+    "/VMC/Ext/T": 3,
+    "/VMC/Ext/Root/Pos": 3
+  },
+  "effective": {
+    "head": {
+      "requested": "ardy",
+      "actual": [
+        "ardy"
+      ],
+      "fallback": false,
+      "channels": 2
+    },
+    "left_arm": {
+      "requested": "kimodo",
+      "actual": [
+        "kimodo"
+      ],
+      "fallback": false,
+      "channels": 3
+    },
+    "right_arm": {
+      "requested": "agi",
+      "actual": [
+        "agi"
+      ],
+      "fallback": false,
+      "channels": 3
+    },
+    "eyes": {
+      "requested": "agi",
+      "actual": [
+        "agi"
+      ],
+      "fallback": false,
+      "channels": 9
+    },
+    "mouth": {
+      "requested": "agi",
+      "actual": [
+        "agi"
+      ],
+      "fallback": false,
+      "channels": 5
+    }
+  },
+  "sources": [
+    {
+      "id": "agi",
+      "label": "AGI Mocap",
+      "port": 39539,
+      "capabilities": [
+        "root",
+        "torso",
+        "head",
+        "left_arm",
+        "right_arm",
+        "left_wrist",
+        "right_wrist",
+        "left_fingers",
+        "right_fingers",
+        "left_leg",
+        "right_leg",
+        "eyes",
+        "mouth",
+        "expression"
+      ],
+      "active": true,
+      "age_seconds": 0.02,
+      "mode": "live",
+      "clip": null,
+      "packets": 44608,
+      "bones": 54,
+      "blends": 18
+    },
+    {
+      "id": "kimodo",
+      "label": "Kimodo",
+      "port": 39541,
+      "capabilities": [
+        "root",
+        "torso",
+        "head",
+        "left_arm",
+        "right_arm",
+        "left_wrist",
+        "right_wrist",
+        "left_leg",
+        "right_leg"
+      ],
+      "active": true,
+      "age_seconds": 0.02,
+      "mode": "replay",
+      "clip": "走路挥手 · Kimodo 已生成",
+      "packets": 91,
+      "bones": 20,
+      "blends": 0
+    },
+    {
+      "id": "ardy",
+      "label": "ARDY",
+      "port": 39542,
+      "capabilities": [
+        "root",
+        "torso",
+        "head",
+        "left_arm",
+        "right_arm",
+        "left_wrist",
+        "right_wrist",
+        "left_leg",
+        "right_leg"
+      ],
+      "active": true,
+      "age_seconds": 0.02,
+      "mode": "replay",
+      "clip": "走路挥手 · ARDY 已生成",
+      "packets": 92,
+      "bones": 20,
+      "blends": 0
+    }
+  ],
+  "invalid_packets": 0,
+  "restored_profile": {
+    "id": "vodyanitsa",
+    "label": "沃雅妮莎",
+    "revision": 6,
+    "enabled": true,
+    "base_source": "agi",
+    "transition_ms": 250,
+    "timeout_ms": 1000,
+    "routes": {},
+    "bones": {}
+  }
+}

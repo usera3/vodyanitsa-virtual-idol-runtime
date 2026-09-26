@@ -1,0 +1,22 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MediaPipe 抽象人形实验</title>
+<style>body{margin:0;background:#10151f;color:#eef4ff;font:15px system-ui,"Microsoft YaHei"}.layout{display:grid;grid-template-columns:255px 1fr;height:100vh;min-height:650px}.menu{background:#192536;border-right:1px solid #40506a;padding:16px;overflow:auto}h1{font-size:19px;margin:0 0 8px}.muted{font-size:12px;color:#aebed2;line-height:1.55;margin:0 0 13px}button{font:inherit;cursor:pointer;color:inherit;background:#263548;border:1px solid #43546d;border-radius:8px;padding:8px 10px}.item{display:block;width:100%;text-align:left;margin:5px 0}.item.current,.pose.current{background:#225348;border-color:#61e4b7}.pose-row{display:flex;gap:6px;margin:12px 0}.pose-row button{flex:1}.reset{width:100%;border-color:#79808c;margin-top:10px}.stage{display:flex;align-items:center;justify-content:center;min-width:0;background:#303943;padding:12px}.stage img{display:block;max-height:calc(100vh - 24px);max-width:100%;object-fit:contain;background:#fff}.foot{display:flex;gap:6px;margin-top:12px}.foot button{flex:1}@media(max-width:850px){.layout{grid-template-columns:175px 1fr}.menu{padding:9px}button{font-size:12px;padding:7px}}</style>
+<div class="layout"><aside class="menu"><h1>抽象人形实验</h1><p class="muted">先选一档，再选 A / B / C 姿势。← → 换风格；数字 1 / 2 / 3 换姿势。推流只框选右侧图像。</p><div id="styles"></div><div class="pose-row" id="poses"><button type="button" data-pose="A_T">A · T字</button><button type="button" data-pose="B_arm_up">B · 举臂</button><button type="button" data-pose="C_squat">C · 下蹲</button></div><button type="button" class="reset" id="reset">白屏重置</button><div class="foot"><button type="button" id="prev">← 上一档</button><button type="button" id="next">下一档 →</button></div></aside><main class="stage"><img id="stimulus" alt="MediaPipe 引导的抽象人形"></main></div>
+<script>
+const data=[
+ ['总览','00_MediaPipe引导抽象人形总览.png'],
+ ['01 真实脸＋黑色人形','01_photo_face_black'],
+ ['02 真实脸＋柔和明暗','02_photo_face_gradient'],
+ ['03 点画脸＋柔和明暗','03_drawn_face_gradient'],
+ ['04 低纹理灰身＋真实脸','04_soft_gray_human'],
+ ['05 真实脸＋圆柱四肢','05_photo_face_capsules'],
+ ['06 真实脸＋增加边距','06_photo_face_margin']];
+let selected=0,pose='B_arm_up',blank=false;
+const list=document.getElementById('styles'),image=document.getElementById('stimulus');
+data.forEach(([label],index)=>{const b=document.createElement('button');b.className='item';b.type='button';b.textContent=label;b.onclick=()=>show(index);list.append(b)});
+function render(){image.src=blank?'00_blank_reset.png':selected===0?data[0][1]:data[selected][1]+'-'+pose+'.png';image.alt=blank?'白屏重置':data[selected][0]+' '+pose;document.title=(blank?'白屏':data[selected][0])+' · MediaPipe 抽象人形实验';for(const [i,b] of [...list.children].entries())b.classList.toggle('current',i===selected&&!blank);for(const b of document.querySelectorAll('#poses button'))b.classList.toggle('current',b.dataset.pose===pose&&!blank)}
+function show(index){blank=false;selected=(index+data.length)%data.length;render()}
+document.querySelectorAll('#poses button').forEach(b=>b.onclick=()=>{pose=b.dataset.pose;show(selected||1)});
+document.getElementById('reset').onclick=()=>{blank=true;render()};document.getElementById('prev').onclick=()=>show(selected-1);document.getElementById('next').onclick=()=>show(selected+1);
+document.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(selected-1);if(e.key==='ArrowRight')show(selected+1);if(e.key==='1'||e.key==='2'||e.key==='3'){pose=['A_T','B_arm_up','C_squat'][Number(e.key)-1];show(selected||1)}});
+render();
+</script></html>

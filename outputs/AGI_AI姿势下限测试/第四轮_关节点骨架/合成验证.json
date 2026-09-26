@@ -1,0 +1,52 @@
+{
+  "origin": "Three AI-generated pose stills and the user-accepted face-marked silhouette; no human video frames",
+  "fps": 30,
+  "resolution": [
+    720,
+    720
+  ],
+  "seconds_per_pose": 3.0,
+  "segments": [
+    {
+      "start_second": 0,
+      "end_second": 9,
+      "style": "已有效的带五官剪影",
+      "file": "01_face_ref.mp4",
+      "sha256": "1ff5de4b0f2b51d82d9f37f2f1e2fb0194200cb72e98ea2217e5fb430c74b4c5"
+    },
+    {
+      "start_second": 9,
+      "end_second": 18,
+      "style": "剪影加关节点",
+      "file": "02_marked_silhouette.mp4",
+      "sha256": "8da8e1d91b25953a4d28aa1e5f145424fc58a5d085f35fd8c7f5a92a979fde77"
+    },
+    {
+      "start_second": 18,
+      "end_second": 27,
+      "style": "粗骨骼线与关节点",
+      "file": "03_thick_skeleton.mp4",
+      "sha256": "ed3d6bbe300d5fb9892320751592c89a6cdf11f15114a56cf7190a19e0e8d49c"
+    },
+    {
+      "start_second": 27,
+      "end_second": 36,
+      "style": "中等骨骼线与关节点",
+      "file": "04_medium_skeleton.mp4",
+      "sha256": "55c6ebde54aa3cc84289e934148b0594b25b1ca1c6cd6bbc3b876a8fb97a9e74"
+    },
+    {
+      "start_second": 36,
+      "end_second": 45,
+      "style": "细骨骼线与关节点",
+      "file": "05_thin_skeleton.mp4",
+      "sha256": "62fed6cadbd29d319deeef90011dd0e3be3fc84537f973c8ee5ffec5d8a8fad4"
+    }
+  ],
+  "combined": {
+    "file": "00_关节点骨架对照_45秒.mp4",
+    "duration_seconds": 45.0,
+    "frames": 1350,
+    "sha256": "4f3f2d6d3981a96141fb7c85dd9ab9007345ac3b9b2ced1ded027b4a92710627"
+  }
+}

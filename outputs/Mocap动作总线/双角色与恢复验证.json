@@ -1,0 +1,49 @@
+{
+  "old_hub_id": "83921a640bf8427495e15e845a8c9846",
+  "new_hub_id": "708399795d9046ddaf377ee5e2f63525",
+  "recovered_seconds": 4.75,
+  "subscribers": [
+    {
+      "client_id": "f91d61e4199e4cfab016d0a3f69d2b2d",
+      "name": "薇斯纳",
+      "port": 56181,
+      "pid": 4648,
+      "topics": [
+        "agi/main"
+      ],
+      "lease_seconds_left": 14.2,
+      "forwarded_packets": 3936,
+      "send_errors": 0
+    },
+    {
+      "client_id": "5113bbd16d92462c9a1e763fb042324f",
+      "name": "沃雅妮莎",
+      "port": 56182,
+      "pid": 38004,
+      "topics": [
+        "agi/main"
+      ],
+      "lease_seconds_left": 14.6,
+      "forwarded_packets": 1722,
+      "send_errors": 0
+    }
+  ],
+  "characters": [
+    {
+      "name": "薇斯纳",
+      "port": 56181,
+      "incoming_changes": 134,
+      "pose_changes": 135,
+      "hair_motion_changes": 138,
+      "fps": 22.91
+    },
+    {
+      "name": "沃雅妮莎",
+      "port": 56182,
+      "incoming_changes": 134,
+      "pose_changes": 134,
+      "hair_motion_changes": 138,
+      "fps": 20.78
+    }
+  ]
+}

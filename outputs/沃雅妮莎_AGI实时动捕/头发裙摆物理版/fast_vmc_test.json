@@ -1,0 +1,9 @@
+{
+  "messages": 296,
+  "state_equal": true,
+  "bundle_fallback": true,
+  "timings": {
+    "original": 0.03265970000211382,
+    "fast": 0.008386599998630118
+  }
+}

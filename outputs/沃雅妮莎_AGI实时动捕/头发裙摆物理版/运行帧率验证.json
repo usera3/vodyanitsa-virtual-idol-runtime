@@ -1,0 +1,130 @@
+{
+  "samples": [
+    {
+      "wall": 1790099755.1340575,
+      "updated_at": "2026-09-23 01:55:54",
+      "fps": 30.39,
+      "physics_steps": 1034,
+      "callback_ms": 17.68,
+      "pose_changes": 34,
+      "hair_changes": 34,
+      "connected": true
+    },
+    {
+      "wall": 1790099757.1349766,
+      "updated_at": "2026-09-23 01:55:56",
+      "fps": 29.93,
+      "physics_steps": 1094,
+      "callback_ms": 17.82,
+      "pose_changes": 36,
+      "hair_changes": 36,
+      "connected": true
+    },
+    {
+      "wall": 1790099759.1355765,
+      "updated_at": "2026-09-23 01:55:58",
+      "fps": 30.11,
+      "physics_steps": 1155,
+      "callback_ms": 17.69,
+      "pose_changes": 38,
+      "hair_changes": 38,
+      "connected": true
+    },
+    {
+      "wall": 1790099761.1360948,
+      "updated_at": "2026-09-23 01:56:00",
+      "fps": 29.56,
+      "physics_steps": 1214,
+      "callback_ms": 17.87,
+      "pose_changes": 40,
+      "hair_changes": 40,
+      "connected": true
+    },
+    {
+      "wall": 1790099763.1367111,
+      "updated_at": "2026-09-23 01:56:02",
+      "fps": 29.12,
+      "physics_steps": 1274,
+      "callback_ms": 18.86,
+      "pose_changes": 42,
+      "hair_changes": 42,
+      "connected": true
+    },
+    {
+      "wall": 1790099765.137327,
+      "updated_at": "2026-09-23 01:56:04",
+      "fps": 30.16,
+      "physics_steps": 1336,
+      "callback_ms": 17.77,
+      "pose_changes": 44,
+      "hair_changes": 44,
+      "connected": true
+    },
+    {
+      "wall": 1790099767.137893,
+      "updated_at": "2026-09-23 01:56:06",
+      "fps": 29.9,
+      "physics_steps": 1396,
+      "callback_ms": 17.94,
+      "pose_changes": 46,
+      "hair_changes": 46,
+      "connected": true
+    },
+    {
+      "wall": 1790099769.1389923,
+      "updated_at": "2026-09-23 01:56:08",
+      "fps": 29.99,
+      "physics_steps": 1458,
+      "callback_ms": 18.3,
+      "pose_changes": 48,
+      "hair_changes": 48,
+      "connected": true
+    },
+    {
+      "wall": 1790099771.139672,
+      "updated_at": "2026-09-23 01:56:10",
+      "fps": 29.69,
+      "physics_steps": 1518,
+      "callback_ms": 18.54,
+      "pose_changes": 50,
+      "hair_changes": 50,
+      "connected": true
+    },
+    {
+      "wall": 1790099773.1403913,
+      "updated_at": "2026-09-23 01:56:12",
+      "fps": 29.55,
+      "physics_steps": 1579,
+      "callback_ms": 18.59,
+      "pose_changes": 52,
+      "hair_changes": 52,
+      "connected": true
+    },
+    {
+      "wall": 1790099775.1413412,
+      "updated_at": "2026-09-23 01:56:14",
+      "fps": 29.91,
+      "physics_steps": 1641,
+      "callback_ms": 18.27,
+      "pose_changes": 54,
+      "hair_changes": 54,
+      "connected": true
+    },
+    {
+      "wall": 1790099777.1422524,
+      "updated_at": "2026-09-23 01:56:16",
+      "fps": 29.72,
+      "physics_steps": 1702,
+      "callback_ms": 18.54,
+      "pose_changes": 56,
+      "hair_changes": 56,
+      "connected": true
+    }
+  ],
+  "mean_reported_fps": 29.835833333333333,
+  "min_reported_fps": 29.12,
+  "max_reported_fps": 30.39,
+  "long_window_fps": 30.352330226307146,
+  "pose_keeps_changing": true,
+  "hair_keeps_changing": true
+}

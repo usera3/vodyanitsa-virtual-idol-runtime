@@ -1,0 +1,223 @@
+{
+  "first_action_seconds": 3.024,
+  "last_action_seconds": 6.957,
+  "action_id": "generated-b12b1e5f50ce",
+  "hips_packets": 271,
+  "hips_vertical_span": 0.498808,
+  "hips_min": -0.17504559457302094,
+  "hips_max": 0.3237625062465668,
+  "audit": [
+    {
+      "updated_at": "2026-09-26T00:36:38+0800",
+      "monotonic_ms": 279432586.845,
+      "state": "action_interrupted",
+      "source_event_id": "e578c578",
+      "result": {
+        "actor": "vodyanitsa",
+        "stopped": false
+      }
+    },
+    {
+      "updated_at": "2026-09-26T00:36:38+0800",
+      "monotonic_ms": 279432590.411,
+      "state": "planning_motion",
+      "source_event_id": "e578c578",
+      "user_text": "跳跃"
+    },
+    {
+      "updated_at": "2026-09-26T00:36:38+0800",
+      "monotonic_ms": 279432597.281,
+      "state": "speech_synthesizing",
+      "source_event_id": "fast:e578c578",
+      "motion_source_event_id": "e578c578",
+      "text": "好。"
+    },
+    {
+      "updated_at": "2026-09-26T00:36:38+0800",
+      "monotonic_ms": 279432618.056,
+      "state": "motion_planned",
+      "route": "local_reflex",
+      "source_event_id": "e578c578",
+      "elapsed_seconds": 0.028,
+      "plan": {
+        "mode": "generate",
+        "action_id": null,
+        "ardy_prompt": "A person bends both knees, rises onto both toes, swings both arms slightly backward, jumps straight upward once with both feet clearly leaving the floor, lands softly on both feet with bent knees, regains balance, lowers both arms, and returns to a neutral standing posture.",
+        "duration_seconds": 4.0,
+        "mask": "full",
+        "loop": false,
+        "confidence": 1.0,
+        "reason": "本地跳跃模板；保留明确离地和落地顺序",
+        "assistant_action_text": ""
+      }
+    },
+    {
+      "updated_at": "2026-09-26T00:36:38+0800",
+      "monotonic_ms": 279432620.385,
+      "state": "ardy_generating",
+      "source_event_id": "e578c578",
+      "prompt": "A person bends both knees, rises onto both toes, swings both arms slightly backward, jumps straight upward once with both feet clearly leaving the floor, lands softly on both feet with bent knees, regains balance, lowers both arms, and returns to a neutral standing posture.",
+      "duration_seconds": 4.0,
+      "steps": 10
+    },
+    {
+      "updated_at": "2026-09-26T00:36:38+0800",
+      "monotonic_ms": 279432622.41,
+      "state": "ardy_progress",
+      "source_event_id": "e578c578",
+      "message": "Generating 80 frames"
+    },
+    {
+      "updated_at": "2026-09-26T00:36:38+0800",
+      "monotonic_ms": 279432935.912,
+      "state": "ardy_progress",
+      "source_event_id": "e578c578",
+      "message": "Correcting foot contacts"
+    },
+    {
+      "updated_at": "2026-09-26T00:36:39+0800",
+      "monotonic_ms": 279433401.229,
+      "state": "speech_motion_sync_ready",
+      "source_event_id": "e578c578",
+      "audio": {
+        "state": "audio_ready",
+        "audio_seconds": 0.48,
+        "monotonic_ms": 279433385.209
+      }
+    },
+    {
+      "updated_at": "2026-09-26T00:36:39+0800",
+      "monotonic_ms": 279433403.176,
+      "state": "speaking",
+      "source_event_id": "fast:e578c578",
+      "motion_source_event_id": "e578c578",
+      "text": "好。",
+      "audio": {
+        "state": "audio_ready",
+        "audio_seconds": 0.48,
+        "monotonic_ms": 279433385.209
+      }
+    },
+    {
+      "updated_at": "2026-09-26T00:36:40+0800",
+      "monotonic_ms": 279434482.007,
+      "state": "speech_complete",
+      "source_event_id": "fast:e578c578",
+      "elapsed_seconds": 1.891,
+      "result": {
+        "audio_seconds": 0.48,
+        "synthesis_seconds": 0.174,
+        "planning_seconds": 0.013,
+        "viseme_frames": 15,
+        "voice_port": 39543,
+        "played": true
+      }
+    },
+    {
+      "updated_at": "2026-09-26T00:36:41+0800",
+      "monotonic_ms": 279435503.874,
+      "state": "reflex_dispatched",
+      "route": "local_reflex",
+      "source_event_id": "e578c578",
+      "plan": {
+        "mode": "generate",
+        "action_id": null,
+        "ardy_prompt": "A person bends both knees, rises onto both toes, swings both arms slightly backward, jumps straight upward once with both feet clearly leaving the floor, lands softly on both feet with bent knees, regains balance, lowers both arms, and returns to a neutral standing posture.",
+        "duration_seconds": 4.0,
+        "mask": "full",
+        "loop": false,
+        "confidence": 1.0,
+        "reason": "本地跳跃模板；保留明确离地和落地顺序",
+        "assistant_action_text": ""
+      },
+      "generated": {
+        "npz": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\ardy-0bdfbcbfd5d9bd7939e8.npz",
+        "clip": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\generated\\ardy-0bdfbcbfd5d9bd7939e8.json",
+        "clip_file": "ardy-0bdfbcbfd5d9bd7939e8.json",
+        "frames": 80,
+        "fps": 20.0,
+        "cache_key": "0bdfbcbfd5d9bd7939e8",
+        "cached": false,
+        "worker": {
+          "status": "done",
+          "path": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\ardy-0bdfbcbfd5d9bd7939e8.npz",
+          "frames": 80,
+          "fps": 20.0
+        },
+        "steps": 10
+      },
+      "saved_action": {
+        "id": "ardy-0bdfbcbfd5d9bd7939e8",
+        "label": "ARDY · 跳跃",
+        "tags": [
+          "ARDY",
+          "生成动作"
+        ],
+        "ardy_prompt": "A person bends both knees, rises onto both toes, swings both arms slightly backward, jumps straight upward once with both feet clearly leaving the floor, lands softly on both feet with bent knees, regains balance, lowers both arms, and returns to a neutral standing posture.",
+        "duration_seconds": 4.0,
+        "mask": "full",
+        "file": "ardy-0bdfbcbfd5d9bd7939e8.json",
+        "npz": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\ardy-0bdfbcbfd5d9bd7939e8.npz",
+        "frames": 80,
+        "fps": 20.0,
+        "model": "ARDY-Core-RP-20FPS-Horizon40-10steps",
+        "generation_steps": 10,
+        "text_encoder": "MiniLM ARDY Core40 distilled",
+        "created_at": "2026-09-26T00:36:41+0800",
+        "last_used_at": "2026-09-26T00:36:41+0800",
+        "use_count": 1,
+        "user_examples": [
+          "跳跃"
+        ],
+        "assistant_action_examples": []
+      },
+      "result": {
+        "id": "generated-b12b1e5f50ce",
+        "label": "ARDY · 跳跃",
+        "mask": "full",
+        "loop": false,
+        "elapsed_seconds": 0.0,
+        "duration_seconds": 4.0
+      }
+    },
+    {
+      "updated_at": "2026-09-26T00:36:48+0800",
+      "monotonic_ms": 279442450.55,
+      "state": "assistant_motion_context",
+      "source_event_id": "e578c578",
+      "stage_directions": "她看着你，眼神里有一点点疑惑，但还是顺从地点了点头。 她轻轻踮起脚尖，身体微微下沉蓄力，然后双脚离地。那一跃很轻，几乎是在空中停顿了一瞬，随后稳稳地落回原地，脚尖点地，没有发出半点声响。 她有些不好意思地垂下眼帘，指尖轻轻捻着衣角。"
+    },
+    {
+      "updated_at": "2026-09-26T00:36:48+0800",
+      "monotonic_ms": 279442462.756,
+      "state": "speech_synthesizing",
+      "source_event_id": "894a2c80",
+      "motion_source_event_id": "e578c578",
+      "text": "好。 这样……可以吗？"
+    },
+    {
+      "updated_at": "2026-09-26T00:36:49+0800",
+      "monotonic_ms": 279443408.311,
+      "state": "speech_motion_sync_ready",
+      "source_event_id": "e578c578",
+      "audio": {
+        "state": "audio_ready",
+        "audio_seconds": 2.32,
+        "monotonic_ms": 279443406.051
+      }
+    },
+    {
+      "updated_at": "2026-09-26T00:36:49+0800",
+      "monotonic_ms": 279443409.932,
+      "state": "speaking",
+      "source_event_id": "894a2c80",
+      "motion_source_event_id": "e578c578",
+      "text": "好。 这样……可以吗？",
+      "audio": {
+        "state": "audio_ready",
+        "audio_seconds": 2.32,
+        "monotonic_ms": 279443406.051
+      }
+    }
+  ]
+}

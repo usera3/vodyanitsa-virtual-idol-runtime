@@ -1,0 +1,62 @@
+{
+  "origin": "One directly AI-generated raised-arm humanoid pose, no human video frames",
+  "source": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\work\\agi-input-limits\\ai_static_images\\color-B_arm_up.png",
+  "source_sha256": "3c251a7b7fe9aeccc533f279f41f536032d883e66756b78b35b07aaf93374e1b",
+  "styles": [
+    {
+      "id": "01_binary_texture",
+      "label": "高对比纹理二值图",
+      "file": "01_binary_texture.png",
+      "sha256": "d2871a0da95f6627f859c630332c20b44808b59c028f2fd9d177237513d0cf37"
+    },
+    {
+      "id": "02_photo_edges",
+      "label": "人体照片轮廓线",
+      "file": "02_photo_edges.png",
+      "sha256": "78ef4d5dbd3c6ce1d1a19dac48aee9765ae59b0c5c308624bea064b481a6c705"
+    },
+    {
+      "id": "03_photo_negative",
+      "label": "照片负片",
+      "file": "03_photo_negative.png",
+      "sha256": "075a7686ac4e132b94dc8fd1b05e0bdec86aea804d72f729ea60de3037ef1d08"
+    },
+    {
+      "id": "04_pseudo_thermal",
+      "label": "伪热成像",
+      "file": "04_pseudo_thermal.png",
+      "sha256": "8920303b346a2548f47b86b23e4630ff57eaaea42e0bf9b2f852852a9eb016e7"
+    },
+    {
+      "id": "05_pseudo_depth",
+      "label": "伪深度图",
+      "file": "05_pseudo_depth.png",
+      "sha256": "9591b49d49080357cdafa2a6bd73147f11e4bdc87df98e575ac0a2e91c45f734"
+    },
+    {
+      "id": "06_openpose_rainbow",
+      "label": "OpenPose 彩色关节",
+      "file": "06_openpose_rainbow.png",
+      "sha256": "93fabc2ff018f2c0fb94c74d239d22fe4d8139ee451652d38956decd2341d024"
+    },
+    {
+      "id": "07_joint_heatmap",
+      "label": "关节热力图",
+      "file": "07_joint_heatmap.png",
+      "sha256": "1939072ad50c1679a80ebcb828a2516524f359846933e2659de9df59463b9650"
+    },
+    {
+      "id": "08_pseudo_normals",
+      "label": "伪法线图",
+      "file": "08_pseudo_normals.png",
+      "sha256": "f2019f3f5a33b1ae4ff587471aeb6cd94474299360b32308d9db71871225b4f0"
+    },
+    {
+      "id": "09_pixelated_rgb",
+      "label": "像素化彩色人像",
+      "file": "09_pixelated_rgb.png",
+      "sha256": "9432e429252f44593346476b6d84d72498dfdcf96f8aad1a64f9193840e8496c"
+    }
+  ],
+  "all_pending_AGI_user_test": true
+}

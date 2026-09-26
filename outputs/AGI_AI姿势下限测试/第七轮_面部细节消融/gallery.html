@@ -1,0 +1,21 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AGI 面部细节实验</title>
+<style>body{margin:0;background:#10151f;color:#eef4ff;font:15px system-ui,"Microsoft YaHei"}.layout{display:grid;grid-template-columns:245px 1fr;height:100vh;min-height:640px}.menu{background:#192536;border-right:1px solid #40506a;padding:16px;overflow:auto}h1{font-size:19px;margin:0 0 8px}.muted{font-size:12px;color:#aebed2;line-height:1.55;margin:0 0 13px}button{font:inherit;cursor:pointer;color:inherit;background:#263548;border:1px solid #43546d;border-radius:8px;padding:8px 10px}.item{display:block;width:100%;text-align:left;margin:5px 0}.item.current,.pose.current{background:#225348;border-color:#61e4b7}.pose-row{display:flex;gap:6px;margin:12px 0}.pose-row button{flex:1}.reset{width:100%;border-color:#79808c;margin-top:10px}.stage{display:flex;align-items:center;justify-content:center;min-width:0;background:#303943;padding:12px}.stage img{display:block;max-height:calc(100vh - 24px);max-width:100%;object-fit:contain;background:#fff}.foot{display:flex;gap:6px;margin-top:12px}.foot button{flex:1}@media(max-width:850px){.layout{grid-template-columns:170px 1fr}.menu{padding:9px}button{font-size:12px;padding:7px}}</style>
+<div class="layout"><aside class="menu"><h1>面部细节实验</h1><p class="muted">同一组三张 AI 姿势、同一个抽象身体，只替换脸部小区域。点左侧样式，再切 A/B/C；推流只框选右侧图像。</p><div id="styles"></div><div class="pose-row" id="poses"><button type="button" data-pose="A_T">A · T字</button><button type="button" data-pose="B_arm_up">B · 举臂</button><button type="button" data-pose="C_squat">C · 下蹲</button></div><button type="button" class="reset" id="reset">白屏重置</button><div class="foot"><button type="button" id="prev">← 上一档</button><button type="button" id="next">下一档 →</button></div></aside><main class="stage"><img id="stimulus" alt="待测面部细节"></main></div>
+<script>
+const data=[
+ ['总览','00_面部细节消融总览.png'],
+ ['01 灰度照片五官','01_gray_photo_face'],
+ ['02 低分辨率照片五官','02_lowres_photo_face'],
+ ['03 仅上半张真实脸','03_upper_photo_face'],
+ ['04 仅真实眼睛区域','04_photo_eyes_only'],
+ ['05 仅真实鼻口区域','05_photo_nose_mouth']];
+let selected=0,pose='B_arm_up',blank=false;
+const list=document.getElementById('styles'),image=document.getElementById('stimulus');
+data.forEach(([label],index)=>{const button=document.createElement('button');button.className='item';button.type='button';button.textContent=label;button.onclick=()=>show(index);list.append(button)});
+function render(){image.src=blank?'00_blank_reset.png':selected===0?data[0][1]:data[selected][1]+'-'+pose+'.png';image.alt=blank?'白屏重置':data[selected][0]+' '+pose;document.title=(blank?'白屏':data[selected][0])+' · AGI 面部细节实验';for(const [i,button] of [...list.children].entries())button.classList.toggle('current',i===selected&&!blank);for(const button of document.querySelectorAll('#poses button'))button.classList.toggle('current',button.dataset.pose===pose&&!blank)}
+function show(index){selected=(index+data.length)%data.length;blank=false;render()}
+document.querySelectorAll('#poses button').forEach(button=>button.onclick=()=>{pose=button.dataset.pose;show(selected||1)});
+document.getElementById('reset').onclick=()=>{blank=true;render()};document.getElementById('prev').onclick=()=>show(selected-1);document.getElementById('next').onclick=()=>show(selected+1);
+document.addEventListener('keydown',event=>{if(event.key==='ArrowLeft')show(selected-1);if(event.key==='ArrowRight')show(selected+1);if(['1','2','3'].includes(event.key)){pose=['A_T','B_arm_up','C_squat'][Number(event.key)-1];show(selected||1)}});
+render();
+</script></html>

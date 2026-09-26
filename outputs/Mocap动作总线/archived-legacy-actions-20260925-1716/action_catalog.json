@@ -1,0 +1,179 @@
+[
+  {
+    "id": "daily-walk-wave-ardy",
+    "label": "走路挥手 · ARDY",
+    "category": "daily",
+    "tags": [
+      "日常",
+      "走路",
+      "挥手"
+    ],
+    "clip": "ardy-walk-wave"
+  },
+  {
+    "id": "daily-walk-wave-kimodo",
+    "label": "走路挥手 · Kimodo",
+    "category": "daily",
+    "tags": [
+      "日常",
+      "走路",
+      "挥手"
+    ],
+    "clip": "kimodo-walk-wave"
+  },
+  {
+    "id": "dance-steps-a",
+    "label": "双臂舞步 A",
+    "category": "dance",
+    "tags": [
+      "舞蹈",
+      "双臂",
+      "侧步"
+    ],
+    "clip": "ardy-dance-a"
+  },
+  {
+    "id": "dance-steps-b",
+    "label": "双臂舞步 B",
+    "category": "dance",
+    "tags": [
+      "舞蹈",
+      "双臂",
+      "侧步"
+    ],
+    "clip": "ardy-dance-b"
+  },
+  {
+    "id": "daily-cmu-13-10",
+    "label": "踮脚伸手",
+    "category": "daily",
+    "tags": [
+      "日常",
+      "踮脚",
+      "伸手"
+    ],
+    "clip": "cmu-13-10"
+  },
+  {
+    "id": "daily-cmu-13-27",
+    "label": "挥手指向",
+    "category": "daily",
+    "tags": [
+      "日常",
+      "挥手",
+      "指向"
+    ],
+    "clip": "cmu-13-27"
+  },
+  {
+    "id": "daily-cmu-13-29",
+    "label": "热身组合",
+    "category": "daily",
+    "tags": [
+      "日常",
+      "热身",
+      "转体",
+      "下蹲"
+    ],
+    "clip": "cmu-13-29"
+  },
+  {
+    "id": "daily-cmu-15-06",
+    "label": "前倾伸手",
+    "category": "daily",
+    "tags": [
+      "日常",
+      "前倾",
+      "伸手"
+    ],
+    "clip": "cmu-15-06"
+  },
+  {
+    "id": "daily-cmu-15-08",
+    "label": "前臂转动",
+    "category": "daily",
+    "tags": [
+      "日常",
+      "手势",
+      "前臂"
+    ],
+    "clip": "cmu-15-08"
+  },
+  {
+    "id": "daily-cmu-49-18",
+    "label": "单脚平衡",
+    "category": "daily",
+    "tags": [
+      "日常",
+      "平衡",
+      "单脚"
+    ],
+    "clip": "cmu-49-18"
+  },
+  {
+    "id": "dance-cmu-05-02",
+    "label": "抬臂转圈",
+    "category": "dance",
+    "tags": [
+      "舞蹈",
+      "旋转",
+      "手臂"
+    ],
+    "clip": "cmu-05-02"
+  },
+  {
+    "id": "dance-cmu-05-03",
+    "label": "侧展转步",
+    "category": "dance",
+    "tags": [
+      "舞蹈",
+      "侧展",
+      "转步"
+    ],
+    "clip": "cmu-05-03"
+  },
+  {
+    "id": "dance-cmu-05-07",
+    "label": "芭蕾转身",
+    "category": "dance",
+    "tags": [
+      "舞蹈",
+      "芭蕾",
+      "旋转"
+    ],
+    "clip": "cmu-05-07"
+  },
+  {
+    "id": "dance-cmu-05-11",
+    "label": "侧步旋转",
+    "category": "dance",
+    "tags": [
+      "舞蹈",
+      "侧步",
+      "旋转"
+    ],
+    "clip": "cmu-05-11"
+  },
+  {
+    "id": "dance-cmu-05-12",
+    "label": "高举手臂旋身",
+    "category": "dance",
+    "tags": [
+      "舞蹈",
+      "高举手臂",
+      "旋身"
+    ],
+    "clip": "cmu-05-12"
+  },
+  {
+    "id": "dance-cmu-49-09",
+    "label": "高举双臂侧展",
+    "category": "dance",
+    "tags": [
+      "舞蹈",
+      "双臂",
+      "侧展"
+    ],
+    "clip": "cmu-49-09"
+  }
+]

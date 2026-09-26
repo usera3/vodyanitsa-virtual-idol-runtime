@@ -1,0 +1,105 @@
+{
+  "passed": true,
+  "imported_clips": 12,
+  "total_actions": 16,
+  "all_sources_sha256_verified": true,
+  "all_clips_emit_20_bones": true,
+  "checks": [
+    {
+      "id": "daily-cmu-13-10",
+      "duration_seconds": 19.97,
+      "frames": 599,
+      "bones": 20,
+      "source_sha256": "0cae88c2ae622232040f4ea7a8251ea9b2c02f4c9e0d88610f6f5e05368a838d",
+      "start_end_rotation_delta": 1.1422
+    },
+    {
+      "id": "daily-cmu-13-27",
+      "duration_seconds": 34.77,
+      "frames": 1043,
+      "bones": 20,
+      "source_sha256": "a39a336da6aedd372ea4f129f02a634a775853a92786510fad5a2a64356ad3ed",
+      "start_end_rotation_delta": 1.2375
+    },
+    {
+      "id": "daily-cmu-13-29",
+      "duration_seconds": 38.27,
+      "frames": 1148,
+      "bones": 20,
+      "source_sha256": "bdfcb61b78f4cc0c03c88f275de1e109fe94581a124dae604f1113dbb66691b7",
+      "start_end_rotation_delta": 0.3773
+    },
+    {
+      "id": "daily-cmu-15-06",
+      "duration_seconds": 30.03,
+      "frames": 901,
+      "bones": 20,
+      "source_sha256": "171b1c9dabe0d044f1da669f1e00c7aeac17493b4a3eda1f89ebc1bf8b4f07cc",
+      "start_end_rotation_delta": 0.1856
+    },
+    {
+      "id": "daily-cmu-15-08",
+      "duration_seconds": 32.17,
+      "frames": 965,
+      "bones": 20,
+      "source_sha256": "2278ff8fd818f78db124e6fee8e62d1ef8ea9d2d3181ab8cdb3c93a96dd36bc4",
+      "start_end_rotation_delta": 0.3655
+    },
+    {
+      "id": "daily-cmu-49-18",
+      "duration_seconds": 9.2,
+      "frames": 276,
+      "bones": 20,
+      "source_sha256": "3c5a6c300713f8e712ed47978ee3058e3867e9be6bf5518a6a598e4244d9b484",
+      "start_end_rotation_delta": 0.9598
+    },
+    {
+      "id": "dance-cmu-05-02",
+      "duration_seconds": 9.37,
+      "frames": 281,
+      "bones": 20,
+      "source_sha256": "e0ed825644ba91538e1931673e24e0b7095c6caffe03cd647bf2df7de6a5e5fc",
+      "start_end_rotation_delta": 0.6363
+    },
+    {
+      "id": "dance-cmu-05-03",
+      "duration_seconds": 3.63,
+      "frames": 109,
+      "bones": 20,
+      "source_sha256": "e754d009338bd6a7e5c7e4f5fd30375288af45c83a584de36d3d1043af52049a",
+      "start_end_rotation_delta": 1.2106
+    },
+    {
+      "id": "dance-cmu-05-07",
+      "duration_seconds": 9.93,
+      "frames": 298,
+      "bones": 20,
+      "source_sha256": "429be7f444178f818903a9f1bbf42f7738a704d667d043ead8a028aa8b5aa6a6",
+      "start_end_rotation_delta": 1.0144
+    },
+    {
+      "id": "dance-cmu-05-11",
+      "duration_seconds": 4.93,
+      "frames": 148,
+      "bones": 20,
+      "source_sha256": "50e801a21638ee2abf89fadba0ac99acd6de1650fca3510dc790fdd600fb3418",
+      "start_end_rotation_delta": 1.9104
+    },
+    {
+      "id": "dance-cmu-05-12",
+      "duration_seconds": 11.3,
+      "frames": 339,
+      "bones": 20,
+      "source_sha256": "7844dba87ed9f7b09d868af7fb1d6cfed15adbe006ab1a57062c5cc21d883ca7",
+      "start_end_rotation_delta": 1.0402
+    },
+    {
+      "id": "dance-cmu-49-09",
+      "duration_seconds": 16.0,
+      "frames": 480,
+      "bones": 20,
+      "source_sha256": "e4b5a409e4ccbacd3e33c69ec1e758de5d53bca01b155a18597e099b5bb691dc",
+      "start_end_rotation_delta": 1.2736
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "simulation_frame": 181,
+  "physics_steps": 180,
+  "actual_fps": 39.44,
+  "mean_step_ms": 24.6,
+  "last_step_ms": 24.25,
+  "skirt_bone_peak_displacement": 0.1458213321688445,
+  "body_rotation_error": 0,
+  "has_animation_action": false
+}

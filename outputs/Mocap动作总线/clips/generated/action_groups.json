@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "transition": "neutral_release",
+  "gap_ms": 650,
+  "groups": [
+    {
+      "id": "idle_calm",
+      "actions": [
+        "ardy-a3fe8ae1752175666e3b",
+        "ardy-53e1f47dc1430bbb14f9",
+        "ardy-b963510ce191090cb89b"
+      ],
+      "keys": [
+        "idle_weight_shift",
+        "idle_look_around",
+        "idle_deep_breath"
+      ],
+      "max_repeats": 1,
+      "enabled": false,
+      "human_review_required": true
+    },
+    {
+      "id": "idle_shy",
+      "actions": [
+        "ardy-3609adaf2b59ecb79063",
+        "ardy-a8a0eebdc1711887d314",
+        "ardy-5da3fed9a51a044d6bb4"
+      ],
+      "keys": [
+        "idle_lower_head",
+        "idle_shy_posture",
+        "idle_gentle_sway"
+      ],
+      "max_repeats": 1,
+      "enabled": false,
+      "human_review_required": true
+    },
+    {
+      "id": "greeting_warm",
+      "actions": [
+        "ardy-32548be689011f748a1d",
+        "ardy-b405662c129173539b21",
+        "ardy-4719e0c2e8ab251fcd3e"
+      ],
+      "keys": [
+        "idle_small_nod",
+        "wave_right",
+        "idle_relax_shoulders"
+      ],
+      "max_repeats": 1,
+      "enabled": false,
+      "human_review_required": true
+    },
+    {
+      "id": "conversation_explain",
+      "actions": [
+        "ardy-7dec54a2688487acc12d",
+        "ardy-f49e233ee3355ebd2bba"
+      ],
+      "keys": [
+        "explain_right_palm",
+        "agree_nod"
+      ],
+      "max_repeats": 1,
+      "enabled": false,
+      "human_review_required": true
+    },
+    {
+      "id": "conversation_think",
+      "actions": [
+        "ardy-38b5b1a25cd60a1be9b7",
+        "ardy-3609adaf2b59ecb79063"
+      ],
+      "keys": [
+        "think_chin",
+        "idle_lower_head"
+      ],
+      "max_repeats": 1,
+      "enabled": false,
+      "human_review_required": true
+    },
+    {
+      "id": "mini_warmup",
+      "actions": [
+        "ardy-4719e0c2e8ab251fcd3e",
+        "ardy-5c6c14cdb77120389e95",
+        "ardy-f3a475e4d6f57efa4e75"
+      ],
+      "keys": [
+        "idle_relax_shoulders",
+        "overhead_stretch",
+        "squat_return"
+      ],
+      "max_repeats": 1,
+      "enabled": false,
+      "human_review_required": true
+    },
+    {
+      "id": "movement_in_place",
+      "actions": [
+        "ardy-2df61dcdfe9394723f44",
+        "ardy-1a836890aebd5d07179c",
+        "ardy-d5d55a547840e3413189"
+      ],
+      "keys": [
+        "walk_in_place",
+        "side_step",
+        "jog_in_place"
+      ],
+      "max_repeats": 1,
+      "enabled": false,
+      "human_review_required": true
+    },
+    {
+      "id": "dance_simple",
+      "actions": [
+        "ardy-5da3fed9a51a044d6bb4",
+        "ardy-28e8337a8d6802993092"
+      ],
+      "keys": [
+        "idle_gentle_sway",
+        "dance_step_touch"
+      ],
+      "max_repeats": 1,
+      "enabled": false,
+      "human_review_required": true
+    }
+  ],
+  "enabled": false,
+  "human_review_required": true
+}

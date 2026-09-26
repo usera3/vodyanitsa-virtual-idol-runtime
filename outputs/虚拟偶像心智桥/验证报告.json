@@ -1,0 +1,467 @@
+{
+  "verified_at": "2026-09-26T16:18:17+08:00",
+  "architecture": "YuriOS -> GPU Laya reflex or Agnes planner -> ARDY-only procedural memory -> audio-ready motion gate -> motion hub -> Blender; Qwen3-TTS owns audio and visemes; deterministic embodiment owns idle micro-motion",
+  "services": {
+    "yurios": "http://127.0.0.1:8768",
+    "motion_hub": "http://127.0.0.1:39538",
+    "tts": "http://127.0.0.1:8091/v1/audio/speech",
+    "voice_udp": "127.0.0.1:39543",
+    "behavior_udp": "127.0.0.1:39544"
+  },
+  "tests": {
+    "mind_bridge_passed": 24,
+    "motion_hub_passed": 20,
+    "failed": 0,
+    "packaged_hub_smoke": {
+      "behavior_source_present": true,
+      "routing_version": 2
+    }
+  },
+  "speech_action_sync": {
+    "real_user_event": "4efde489",
+    "real_assistant_event": "8fe6c497",
+    "user_text": "再像企鹅一样走两步，挥挥左手，然后站好。",
+    "laya_decision_ms": 102.5,
+    "decision_basis": "semantic_override",
+    "semantic_similarity": 0.8282,
+    "semantic_margin": 0.2854,
+    "audio_ready_to_action_ms": 19.877,
+    "speaking_state_to_action_ms": 17.96,
+    "action_id": "ardy-bf944e65d95d16984590",
+    "audio_seconds": 2.0
+  },
+  "embodiment": {
+    "profile_revision": 8,
+    "routes": {
+      "mouth": {
+        "source_part": "mouth",
+        "source": "voice",
+        "mode": "source",
+        "fallback": "rest",
+        "mirror": false
+      },
+      "torso": {
+        "source_part": "torso",
+        "source": "behavior",
+        "mode": "source",
+        "fallback": "agi",
+        "mirror": false
+      },
+      "head": {
+        "source_part": "head",
+        "source": "behavior",
+        "mode": "source",
+        "fallback": "agi",
+        "mirror": false
+      },
+      "eyes": {
+        "source_part": "eyes",
+        "source": "behavior",
+        "mode": "source",
+        "fallback": "agi",
+        "mirror": false
+      },
+      "expression": {
+        "source_part": "expression",
+        "source": "behavior",
+        "mode": "source",
+        "fallback": "agi",
+        "mirror": false
+      }
+    },
+    "source": {
+      "id": "behavior",
+      "label": "拟人微动作",
+      "port": 39544,
+      "capabilities": [
+        "torso",
+        "head",
+        "eyes",
+        "expression"
+      ],
+      "active": true,
+      "age_seconds": 0.02,
+      "mode": "live",
+      "clip": null,
+      "packets": 71783,
+      "bones": 8,
+      "blends": 6
+    },
+    "controller": {
+      "updated_at": "2026-09-25T21:48:33+0800",
+      "state": "idle",
+      "frames": 41687,
+      "blinks": 310,
+      "gaze": {
+        "yaw": -0.37,
+        "pitch": -0.417
+      },
+      "port": 39544,
+      "fps": 30.0
+    },
+    "features": [
+      "non-periodic blink",
+      "slow gaze drift",
+      "breathing",
+      "spine/chest/neck/head micro-motion",
+      "listening/speaking/acting amplitude modes"
+    ],
+    "blender": {
+      "connected": true,
+      "received_bones": 22,
+      "received_blends": 11,
+      "pose_changes": 2322,
+      "mesh_changes": 2326,
+      "hair_motion_changes": 2326,
+      "actual_fps": 30.1,
+      "mean_step_ms": 14.46
+    }
+  },
+  "motion_memory": {
+    "legacy_catalog_count": 0,
+    "ardy_library_count": 2,
+    "saved_actions": [
+      {
+        "id": "ardy-bf944e65d95d16984590",
+        "label": "ARDY · 企鹅步、左手挥手、站好",
+        "use_count": 6
+      },
+      {
+        "id": "ardy-ed7ca98c512e012dbd52",
+        "label": "ARDY · 原地转三圈再鞠躬",
+        "use_count": 2
+      }
+    ],
+    "legacy_fallback_rules": 0,
+    "only_ardy_active": true
+  },
+  "safety": {
+    "assistant_prose_cannot_self_trigger": true,
+    "new_user_turn_interrupts_speech_and_action": true,
+    "require_actor_online": true,
+    "generated_path_bounded": true,
+    "per_turn_speech_gate": true,
+    "ambiguous_semantic_neighbors_fall_back_to_agnes": true
+  },
+  "gpu": "NVIDIA GeForce RTX 5090 D v2, 15834, 8202",
+  "scene_grounded_motion": {
+    "trigger_rule": "user explicit/current-turn motion intent only; assistant stage directions refine but never self-trigger",
+    "assistant_stage_context": true,
+    "scene": "empty flat Blender stage; no interactive objects",
+    "forbidden_objects": [
+      "window",
+      "windowsill",
+      "window seat",
+      "seat",
+      "chair",
+      "table",
+      "door",
+      "wall",
+      "bed",
+      "sofa"
+    ],
+    "superseded_action": "ardy-5530c868ebf6108a0399",
+    "active_dance": "ardy-f15e3a11f2b5459f433b",
+    "optimized_prompt": "A shy person performs a gentle simple dance in place, swaying softly from side to side, shifting weight between both feet, tracing small semicircles on the floor with alternating toes, opening clasped hands into soft flowing arm gestures, keeping the head facing forward, and finally returning to a neutral standing posture.",
+    "exact_command_test": {
+      "user_text": "跳舞",
+      "laya_ms": 32.7,
+      "decision_basis": "exact_user_example",
+      "audio_ready_to_dispatch_ms": 33.186,
+      "action": "ARDY · 柔和脚尖舞"
+    }
+  },
+  "ardy_speed": {
+    "cause": "cold first-forward compilation",
+    "cold_10_steps_seconds": 16.437,
+    "warmup": {
+      "duration_seconds": 0.4,
+      "steps": 1,
+      "postprocess": false,
+      "seconds": 14.725,
+      "runs_at_startup": true
+    },
+    "warm_10_steps_seconds": 1.261,
+    "warm_6_steps_seconds": 0.349,
+    "warm_4_steps_seconds": 0.2,
+    "production_steps": 10,
+    "postprocess": true
+  },
+  "live_after_restart": {
+    "bridge_pid": 51748,
+    "blender_pid": 57012,
+    "blender_fps": 29.03,
+    "connected": true,
+    "profile_revision": 8,
+    "behavior_active": true
+  },
+  "latency_root_cause": {
+    "failed_user_event": "4ad96530",
+    "user_text": "跳跃",
+    "user_at": "2026-09-25T23:59:48+08:00",
+    "assistant_at": "2026-09-26T00:01:01+08:00",
+    "user_to_assistant_seconds": 73.0,
+    "laya_ms": 49.6,
+    "old_assistant_context_wait_seconds": 12.0,
+    "old_extra_agnes_timeout_seconds": 35.0,
+    "motion_failed_at_seconds": 48.0,
+    "tts_synthesis_seconds": 0.89,
+    "action_dispatched": false,
+    "second_isolated_main_chat_seconds": 122.0,
+    "finding": "Agnes main chat has high queue jitter; concurrent second Agnes motion planning worsened contention but was not the sole cause"
+  },
+  "provider_probe": {
+    "agnes-3.0-flash_seconds": 10.911,
+    "agnes-2.5-flash_seconds": 16.499,
+    "agnes-2.0-flash_seconds": 2.96,
+    "agnes-2.0-flash_output_empty": true,
+    "decision": "keep 3.0; move common motion off cloud critical path"
+  },
+  "fast_local_motion": {
+    "user_event": "e578c578",
+    "plan_ms": 28.0,
+    "fast_ack_audio_ready_seconds": 0.815,
+    "first_action_seconds": 3.024,
+    "action_end_seconds": 6.957,
+    "hips_vertical_span_m": 0.498808,
+    "ardy_model_generation_seconds_approx": 0.316,
+    "old_subprocess_conversion_seconds_approx": 2.568,
+    "persistent_converter_seconds": 0.097,
+    "assistant_context_seconds": 9.864,
+    "root_motion_forwarded": true,
+    "evidence": "outputs/虚拟偶像心智桥/跳跃快速链路实测.json",
+    "cached_expected_seconds_approx": 0.8
+  },
+  "root_motion_fix": {
+    "status": "rolled_back",
+    "reason": "direct per-frame Hips displacement destabilized Vodyanitsa cloth physics and did not produce a reliable visible jump",
+    "installed_backup": "Mocap动作总线.pre-rootmotion-20260926.exe",
+    "source_reverted": true,
+    "do_not_restore_without": "physics-aware root controller and cloth reset/recovery"
+  },
+  "active_state": {
+    "bridge_pid": 59720,
+    "hub_id": "c55e3081605f4229a56bc0e2a0f421c3",
+    "blender_pid": 49044,
+    "blender_fps": 30.04,
+    "ardy_warm": true,
+    "converter_worker": true,
+    "behavior_active": true
+  },
+  "brain": {
+    "provider": "iFlytek Spark MaaS",
+    "connection_profile": "spark-free",
+    "model": "lm_studio/spark-x2.5-4b",
+    "endpoint": "https://maas-api.cn-huabei-1.xf-yun.com/v2",
+    "chat_thinking": false,
+    "utility_thinking": false,
+    "context_length": 262144,
+    "max_reply_tokens": 256,
+    "raw_api_seconds": 0.921,
+    "yurios_reply_seconds": 2.832,
+    "prompt_tokens": 3169,
+    "output_tokens": 4,
+    "credential_env": "YURIOS_MODEL_API_KEY_SPARK",
+    "credential_in_project": false,
+    "fallback_profile": "legacy-default",
+    "fallback_model": "lm_studio/agnes-3.0-flash"
+  },
+  "failed_dance_turn": {
+    "user_event": "a35b5af9",
+    "user_text": "跳支舞",
+    "spark_reply_seconds": 4.637,
+    "local_match_missed_measure_word": true,
+    "ardy_frames": 140,
+    "final_error": "HTTP 400 Bad Request",
+    "action_dispatched": false,
+    "fixes": [
+      "Chinese measure-word dance matching",
+      "local run template",
+      "generated clip existence assertion",
+      "motion hub error body propagation"
+    ],
+    "live_retest_skipped": "clothing physics had just been restored"
+  },
+  "converter_unicode_fix": {
+    "root_cause": "persistent worker used default Windows pipe encoding for a JSON path containing Mocap动作总线",
+    "fix": "force stdin/stdout/stderr UTF-8 and verify output file exists",
+    "chinese_path_test": {
+      "frames": 140,
+      "seconds": 0.145,
+      "file_created": true
+    },
+    "dance_after_fix": {
+      "event": "0262f86c",
+      "planned_ms": 4,
+      "audio_ready_seconds_approx": 0.82,
+      "hub_dispatch_seconds_approx": 0.86,
+      "frames": 140,
+      "duration_seconds": 7.0
+    },
+    "run_after_fix": {
+      "event": "e602b769",
+      "conversion_seconds": 0.189,
+      "frames": 120,
+      "duration_seconds": 6.0,
+      "dispatched": true
+    }
+  },
+  "speech_performance_timeline": {
+    "enabled": true,
+    "starts_at": "speech audio_ready",
+    "channels": [
+      "torso",
+      "neck",
+      "head",
+      "eyes",
+      "expression"
+    ],
+    "supported": [
+      "turn",
+      "look",
+      "lower_head",
+      "raise_head",
+      "nod",
+      "smile",
+      "surprise",
+      "breath",
+      "relax",
+      "shy approximation"
+    ],
+    "hips_translation": false,
+    "cloth_bones": false,
+    "latest_start_fraction": 0.7,
+    "minimum_cue_seconds": 0.45,
+    "spark_live_cue_delivery": {
+      "user_event": "a03f4e21",
+      "assistant_event": "f28a53ef",
+      "cues": [
+        "turn",
+        "look",
+        "lower_head",
+        "smile"
+      ],
+      "reply_seconds": 2.741
+    },
+    "no_stage_reply_produces_no_cues": true,
+    "evidence": "outputs/虚拟偶像心智桥/语音表演时间轴实测.json"
+  },
+  "pose_awareness": {
+    "hub_pose_snapshots": true,
+    "fields": [
+      "Hips",
+      "Spine",
+      "Chest",
+      "UpperChest",
+      "Neck",
+      "Head",
+      "LeftUpperArm",
+      "RightUpperArm",
+      "LeftLowerArm",
+      "RightLowerArm",
+      "LeftHand",
+      "RightHand"
+    ],
+    "planner_context": [
+      "facing_user",
+      "hands_neutral",
+      "active_action",
+      "bone_angles_deg"
+    ],
+    "already_facing_turn_is_suppressed": true
+  },
+  "pose_release": {
+    "duration_seconds": "0.5-0.6",
+    "reset_command": true,
+    "live_reset_parts": [
+      "root",
+      "left_arm",
+      "right_arm",
+      "left_wrist",
+      "right_wrist",
+      "left_leg",
+      "right_leg"
+    ],
+    "verified_neutral": [
+      "Hips",
+      "LeftUpperArm",
+      "RightUpperArm",
+      "LeftLowerArm",
+      "RightLowerArm",
+      "LeftHand",
+      "RightHand"
+    ]
+  },
+  "idle_actions": {
+    "interval_seconds": "6-15",
+    "duration_seconds": "0.8-1.8",
+    "kinds": [
+      "look",
+      "nod",
+      "lower_head",
+      "smile",
+      "breath",
+      "relax",
+      "shy"
+    ],
+    "safe_channels": [
+      "torso",
+      "neck",
+      "head",
+      "eyes",
+      "expression"
+    ],
+    "live_observation": {
+      "elapsed_seconds": 2.53,
+      "cue": "idle:shy"
+    },
+    "evidence": "outputs/虚拟偶像心智桥/待机动作实测.json"
+  },
+  "curated_motion_library": {
+    "new_actions": 32,
+    "total_library_actions": 38,
+    "idle_candidates": 13,
+    "idle_safe": 8,
+    "review_required": 5,
+    "categories": [
+      "conversation",
+      "dance",
+      "emotion",
+      "exercise",
+      "idle",
+      "locomotion",
+      "posture",
+      "social"
+    ],
+    "groups": [
+      "idle_calm",
+      "idle_shy",
+      "greeting_warm",
+      "conversation_explain",
+      "conversation_think",
+      "mini_warmup",
+      "movement_in_place",
+      "dance_simple"
+    ],
+    "catalog": "outputs/Mocap动作总线/clips/generated/curated_catalog.json",
+    "groups_file": "outputs/Mocap动作总线/clips/generated/action_groups.json",
+    "report": "outputs/虚拟偶像心智桥/预生成动作库报告.json"
+  },
+  "curated_idle_runtime": {
+    "enabled": true,
+    "min_idle_seconds": 30,
+    "interval_seconds": [
+      40,
+      80
+    ],
+    "recent_history": 3,
+    "requires_actor_online": true,
+    "neutral_release_ms": 600,
+    "live_actions": [
+      "待机·左右换重心",
+      "待机·轻柔摇曳"
+    ],
+    "arms_neutral_after": true,
+    "evidence": "outputs/虚拟偶像心智桥/宏观待机动作实测.json"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "selected_base": {
+    "name": "YuriOS",
+    "url": "https://github.com/yuri-os/YuriOS",
+    "license": "Apache-2.0",
+    "role": "mind-memory-autonomy-runtime",
+    "status": "source-audited-via-official-github; clone-retry-needed"
+  },
+  "references": [
+    {
+      "name": "Open-LLM-VTuber",
+      "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+      "license": "MIT",
+      "role": "voice-vad-barge-in-adapters",
+      "local_commit": "992309c0aa19845960228f880013d4685fde93b5"
+    },
+    {
+      "name": "Text-To-VRMA",
+      "url": "https://github.com/Kirakun0328/text-to-vrma",
+      "license": "MIT",
+      "role": "ardy-motion-http-planning-review",
+      "local_commit": "b8081875916c8621c7ec226b4adcb2c70e7b13b7"
+    },
+    {
+      "name": "Project AIRI",
+      "url": "https://github.com/moeru-ai/airi",
+      "license": "MIT",
+      "role": "desktop-ux-plugin-protocol-multidevice"
+    },
+    {
+      "name": "Rexclaw",
+      "url": "https://github.com/Codemarchant/rexclaw",
+      "license": "MIT",
+      "role": "gesture-tool-and-text-to-vrma-integration"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "verified_at": "2026-09-25T12:05:27.8003012+08:00",
+  "character": "沃雅妮莎",
+  "profile_revision": 7,
+  "mouth_route": {
+    "source_part": "mouth",
+    "source": "voice",
+    "mode": "source",
+    "fallback": "rest",
+    "mirror": false
+  },
+  "voice_source": {
+    "port": 39543,
+    "capabilities": [
+      "mouth"
+    ],
+    "packets": 315,
+    "blends": 5
+  },
+  "subscriber": {
+    "send_errors": 0,
+    "pid": 41184
+  },
+  "live_test": {
+    "audio_seconds": 6.32,
+    "planning_seconds": 0.014,
+    "plan_frames": 190,
+    "active_frames": 153,
+    "synthesis_seconds": 1.387
+  },
+  "tests": {
+    "passed": true,
+    "router_hub": 14
+  },
+  "visual_acceptance": "pending user observation"
+}

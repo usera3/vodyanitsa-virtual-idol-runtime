@@ -1,0 +1,35 @@
+{
+  "occluded_live_colors": [
+    0,
+    1,
+    2
+  ],
+  "covered_frames": 61,
+  "desktop_occluder_rgb": [
+    9.0,
+    9.0,
+    9.0
+  ],
+  "renamed_resized_frame": [
+    502,
+    339
+  ],
+  "crop_size": [
+    351,
+    238
+  ],
+  "minimized_status": "目标窗口已最小化 · 恢复窗口后自动继续",
+  "restored": true,
+  "initially_minimized_recovers": true,
+  "virtual_camera_under_occlusion": {
+    "frames": 45,
+    "colors": [
+      0,
+      1,
+      2
+    ],
+    "fps": 30.2
+  },
+  "target_close_stops_output": true,
+  "passed": true
+}

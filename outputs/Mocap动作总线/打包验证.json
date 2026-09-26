@@ -1,0 +1,7 @@
+{
+  "packaged": true,
+  "subscribers": 2,
+  "packets_per_subscriber": 20,
+  "byte_identical": true,
+  "dashboard_served": true
+}

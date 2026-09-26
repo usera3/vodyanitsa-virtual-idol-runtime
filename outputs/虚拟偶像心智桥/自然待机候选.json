@@ -1,0 +1,57 @@
+{
+  "action": {
+    "id": "ardy-cec6022759d2eeb8143a",
+    "label": "ARDY · 候选·自然放松站立",
+    "tags": [
+      "ARDY",
+      "候选",
+      "自然放松站立"
+    ],
+    "ardy_prompt": "A person stands naturally at ease with both feet planted comfortably, shoulders lowered and fully relaxed, both upper arms hanging close against the sides of the torso, elbows only slightly bent, forearms resting near the hips, and both hands kept below the waist close to the body throughout the entire motion. The person takes one slow breath and makes one very small comfortable weight shift without lifting or spreading the arms, then settles back into the same relaxed natural standing posture with arms hanging close to the body and hands below the waist.",
+    "duration_seconds": 6.0,
+    "mask": "full",
+    "file": "ardy-cec6022759d2eeb8143a.json",
+    "npz": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\ardy-cec6022759d2eeb8143a.npz",
+    "frames": 120,
+    "fps": 20.0,
+    "model": "ARDY-Core-RP-20FPS-Horizon40-10steps",
+    "generation_steps": 10,
+    "seed": 2026092699,
+    "text_encoder": "MiniLM ARDY Core40 distilled",
+    "created_at": "2026-09-26T16:22:22+0800",
+    "last_used_at": "2026-09-26T16:22:22+0800",
+    "use_count": 1,
+    "user_examples": [
+      "候选·自然放松站立"
+    ],
+    "assistant_action_examples": [],
+    "curated_key": "human_relaxed_idle_candidate",
+    "category": "idle",
+    "entry_pose": "natural_relaxed_standing",
+    "exit_pose": "natural_relaxed_standing",
+    "human_reviewed": false,
+    "safe_for_idle": false,
+    "review_required": true,
+    "idle_candidate": true,
+    "max_repeats": 1,
+    "cooldown_seconds": 60
+  },
+  "generated": {
+    "npz": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\ardy-cec6022759d2eeb8143a.npz",
+    "clip": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\generated\\ardy-cec6022759d2eeb8143a.json",
+    "clip_file": "ardy-cec6022759d2eeb8143a.json",
+    "frames": 120,
+    "fps": 20.0,
+    "cache_key": "cec6022759d2eeb8143a",
+    "cached": false,
+    "worker": {
+      "status": "done",
+      "path": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\ardy-cec6022759d2eeb8143a.npz",
+      "frames": 120,
+      "fps": 20.0
+    },
+    "steps": 10,
+    "conversion_seconds": 0.124,
+    "seed": 2026092699
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "origin": "Only face patches changed from user-failed style 03; all bodies and AI poses match",
+  "fps": 30,
+  "resolution": [
+    720,
+    720
+  ],
+  "seconds_per_pose": 3.0,
+  "styles": [
+    {
+      "id": "01_gray_photo_face",
+      "label": "灰度照片五官",
+      "video": "01_gray_photo_face.mp4",
+      "sha256": "29c0bc2b5ec2ef9bb7ab5236951a451caae51168435f2366ba289713c612c352"
+    },
+    {
+      "id": "02_lowres_photo_face",
+      "label": "低分辨率照片五官",
+      "video": "02_lowres_photo_face.mp4",
+      "sha256": "4cc9478def64514e5c39968f1ded4c089f9dd3ec4ea480b6a865336c24394496"
+    },
+    {
+      "id": "03_upper_photo_face",
+      "label": "仅上半张真实脸",
+      "video": "03_upper_photo_face.mp4",
+      "sha256": "b875fd9f32cba571abb17def34bb7430f3c530ed30efef95d5bba59b6baa8dca"
+    },
+    {
+      "id": "04_photo_eyes_only",
+      "label": "仅真实眼睛区域",
+      "video": "04_photo_eyes_only.mp4",
+      "sha256": "ffe898a7d948976ce6664f02feec12a749acc789c64f202499906a26b1a53a97"
+    },
+    {
+      "id": "05_photo_nose_mouth",
+      "label": "仅真实鼻口区域",
+      "video": "05_photo_nose_mouth.mp4",
+      "sha256": "58e95e9785b14f6634c4c056a62205a7b66227b0e54ab7065b978f5dde606522"
+    }
+  ],
+  "combined": {
+    "file": "00_面部细节对照_45秒.mp4",
+    "duration_seconds": 45.0,
+    "frames": 1350,
+    "sha256": "83b1cd85dee0b7441e7c1b9e6352eb085417028a0e75dcefb0530d5a0c775500"
+  }
+}

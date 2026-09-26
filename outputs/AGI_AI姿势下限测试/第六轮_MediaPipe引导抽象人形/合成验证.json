@@ -1,0 +1,85 @@
+{
+  "source": "three AI-generated mannequin poses, same camera and body pose",
+  "fps": 30,
+  "resolution": [
+    720,
+    720
+  ],
+  "seconds_per_pose": 3.0,
+  "public_mediapipe_lite_prescreen_only": {
+    "01_photo_face_black": [
+      true,
+      true,
+      true
+    ],
+    "02_photo_face_gradient": [
+      true,
+      true,
+      true
+    ],
+    "03_drawn_face_gradient": [
+      true,
+      true,
+      true
+    ],
+    "04_soft_gray_human": [
+      true,
+      true,
+      true
+    ],
+    "05_photo_face_capsules": [
+      true,
+      true,
+      true
+    ],
+    "06_photo_face_margin": [
+      true,
+      true,
+      true
+    ]
+  },
+  "styles": [
+    {
+      "id": "01_photo_face_black",
+      "label": "真实五官＋黑色人形",
+      "video": "01_photo_face_black.mp4",
+      "sha256": "366a65e22b6fcabd62baf4927e74b7f63c8729426dc0f07d153a560ea9ac6197"
+    },
+    {
+      "id": "02_photo_face_gradient",
+      "label": "真实五官＋整体柔和明暗",
+      "video": "02_photo_face_gradient.mp4",
+      "sha256": "0ea438dde929d04e6c860e4c265ee05908cd0b01a225ad4a29b403fac7fcbf84"
+    },
+    {
+      "id": "03_drawn_face_gradient",
+      "label": "点画五官＋整体柔和明暗",
+      "video": "03_drawn_face_gradient.mp4",
+      "sha256": "cd84966f578176d0c3cb168cd3ec66e0dfe98696ea3489695ca4e440cc875684"
+    },
+    {
+      "id": "04_soft_gray_human",
+      "label": "低纹理灰身＋真实脸",
+      "video": "04_soft_gray_human.mp4",
+      "sha256": "6a5b4662dce475f53a7e1b38e7585d3e09980e94275997997aa91b31bac5fec8"
+    },
+    {
+      "id": "05_photo_face_capsules",
+      "label": "真实五官＋圆柱四肢",
+      "video": "05_photo_face_capsules.mp4",
+      "sha256": "bf8f7e63a7c67e68da5870e6d5d9ae2f4bee3a3b5effa37c8e9a00cbbe6540bc"
+    },
+    {
+      "id": "06_photo_face_margin",
+      "label": "真实五官＋黑色人形缩小",
+      "video": "06_photo_face_margin.mp4",
+      "sha256": "aa1c45612165af15c532bb8b9f30f5691efc4fca0c8a9f9144fba595463bf314"
+    }
+  ],
+  "combined": {
+    "file": "00_抽象人形对照_54秒.mp4",
+    "duration_seconds": 54.0,
+    "frames": 1620,
+    "sha256": "a5edc2c73cde3fd5761a87c4d065a7ee7d35e8342deaaeb2afbac8e64e773206"
+  }
+}

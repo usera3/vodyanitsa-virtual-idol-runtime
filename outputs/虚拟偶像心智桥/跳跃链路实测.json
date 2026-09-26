@@ -1,0 +1,1464 @@
+{
+  "error": [],
+  "request_seconds": 0,
+  "user_id": null,
+  "assistant_id": null,
+  "first_action_seconds": null,
+  "action_seen": false,
+  "hips_packets": 0,
+  "hips_y_min": null,
+  "hips_y_max": null,
+  "hips_vertical_span": null,
+  "audit": [
+    {
+      "updated_at": "2026-09-25T23:09:13+0800",
+      "monotonic_ms": 274187776.694,
+      "state": "planning_motion",
+      "source_event_id": "c9efa2f9",
+      "user_text": "hey, i'm back"
+    },
+    {
+      "updated_at": "2026-09-25T23:09:13+0800",
+      "monotonic_ms": 274187820.631,
+      "state": "laya_decision",
+      "source_event_id": "c9efa2f9",
+      "decision": {
+        "status": "decision",
+        "needs_motion": 0.0107,
+        "action_id": "ardy-bf944e65d95d16984590",
+        "need_answer": {
+          "type": "noul",
+          "noul": 0.0107,
+          "confidence": 0.9893,
+          "answer_confidence": 0.9893,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "choice_answer": {
+          "type": "choice",
+          "choice": "ardy-bf944e65d95d16984590",
+          "probabilities": {
+            "__none__": 0.3857,
+            "ardy-bf944e65d95d16984590": 0.427,
+            "ardy-ed7ca98c512e012dbd52": 0.1873
+          },
+          "confidence": 0.0492,
+          "answer_confidence": 0.427,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "semantic_scores": {
+          "ardy-bf944e65d95d16984590": 0.4034,
+          "ardy-ed7ca98c512e012dbd52": 0.4806
+        },
+        "best_action_id": "ardy-ed7ca98c512e012dbd52",
+        "best_semantic_similarity": 0.4806,
+        "semantic_margin": 0.0772,
+        "decision_basis": "slow_planner",
+        "reflex_action_id": null,
+        "reflex_no_motion": true,
+        "elapsed_seconds": 0.0393,
+        "routing": {
+          "model": "multilingual",
+          "repo": "convaiinnovations/laya/multilingual",
+          "reason": "explicit model='multilingual'",
+          "detection": null,
+          "workflow": null
+        }
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:09:13+0800",
+      "monotonic_ms": 274187823.988,
+      "state": "reflex_no_motion",
+      "route": "laya",
+      "source_event_id": "c9efa2f9",
+      "decision": {
+        "status": "decision",
+        "needs_motion": 0.0107,
+        "action_id": "ardy-bf944e65d95d16984590",
+        "need_answer": {
+          "type": "noul",
+          "noul": 0.0107,
+          "confidence": 0.9893,
+          "answer_confidence": 0.9893,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "choice_answer": {
+          "type": "choice",
+          "choice": "ardy-bf944e65d95d16984590",
+          "probabilities": {
+            "__none__": 0.3857,
+            "ardy-bf944e65d95d16984590": 0.427,
+            "ardy-ed7ca98c512e012dbd52": 0.1873
+          },
+          "confidence": 0.0492,
+          "answer_confidence": 0.427,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "semantic_scores": {
+          "ardy-bf944e65d95d16984590": 0.4034,
+          "ardy-ed7ca98c512e012dbd52": 0.4806
+        },
+        "best_action_id": "ardy-ed7ca98c512e012dbd52",
+        "best_semantic_similarity": 0.4806,
+        "semantic_margin": 0.0772,
+        "decision_basis": "slow_planner",
+        "reflex_action_id": null,
+        "reflex_no_motion": true,
+        "elapsed_seconds": 0.0393,
+        "routing": {
+          "model": "multilingual",
+          "repo": "convaiinnovations/laya/multilingual",
+          "reason": "explicit model='multilingual'",
+          "detection": null,
+          "workflow": null
+        }
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:09:17+0800",
+      "monotonic_ms": 274191168.501,
+      "state": "speech_motion_sync_ready",
+      "source_event_id": "c9efa2f9",
+      "audio": {
+        "state": "audio_ready",
+        "audio_seconds": 8.0,
+        "monotonic_ms": 274191162.318
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:09:25+0800",
+      "monotonic_ms": 274199790.752,
+      "state": "speech_complete",
+      "source_event_id": "07814ff5",
+      "elapsed_seconds": 10.541,
+      "result": {
+        "audio_seconds": 8.0,
+        "synthesis_seconds": 1.434,
+        "planning_seconds": 0.014,
+        "viseme_frames": 240,
+        "voice_port": 39543,
+        "played": true
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:09:55+0800",
+      "monotonic_ms": 274229227.979,
+      "state": "action_interrupted",
+      "source_event_id": "b4bcf4ee",
+      "result": {
+        "actor": "vodyanitsa",
+        "stopped": false
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:09:55+0800",
+      "monotonic_ms": 274229231.118,
+      "state": "planning_motion",
+      "source_event_id": "b4bcf4ee",
+      "user_text": "你好"
+    },
+    {
+      "updated_at": "2026-09-25T23:09:55+0800",
+      "monotonic_ms": 274229304.095,
+      "state": "laya_decision",
+      "source_event_id": "b4bcf4ee",
+      "decision": {
+        "status": "decision",
+        "needs_motion": 0.0069,
+        "action_id": "ardy-ed7ca98c512e012dbd52",
+        "need_answer": {
+          "type": "noul",
+          "noul": 0.0069,
+          "confidence": 0.9931,
+          "answer_confidence": 0.9931,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "choice_answer": {
+          "type": "choice",
+          "choice": "ardy-ed7ca98c512e012dbd52",
+          "probabilities": {
+            "__none__": 0.1474,
+            "ardy-bf944e65d95d16984590": 0.2954,
+            "ardy-ed7ca98c512e012dbd52": 0.5573
+          },
+          "confidence": 0.1187,
+          "answer_confidence": 0.5573,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "semantic_scores": {
+          "ardy-bf944e65d95d16984590": 0.4072,
+          "ardy-ed7ca98c512e012dbd52": 0.3837
+        },
+        "best_action_id": "ardy-bf944e65d95d16984590",
+        "best_semantic_similarity": 0.4072,
+        "semantic_margin": 0.0235,
+        "decision_basis": "slow_planner",
+        "reflex_action_id": null,
+        "reflex_no_motion": true,
+        "elapsed_seconds": 0.0452,
+        "routing": {
+          "model": "multilingual",
+          "repo": "convaiinnovations/laya/multilingual",
+          "reason": "explicit model='multilingual'",
+          "detection": null,
+          "workflow": null
+        }
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:09:55+0800",
+      "monotonic_ms": 274229306.906,
+      "state": "reflex_no_motion",
+      "route": "laya",
+      "source_event_id": "b4bcf4ee",
+      "decision": {
+        "status": "decision",
+        "needs_motion": 0.0069,
+        "action_id": "ardy-ed7ca98c512e012dbd52",
+        "need_answer": {
+          "type": "noul",
+          "noul": 0.0069,
+          "confidence": 0.9931,
+          "answer_confidence": 0.9931,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "choice_answer": {
+          "type": "choice",
+          "choice": "ardy-ed7ca98c512e012dbd52",
+          "probabilities": {
+            "__none__": 0.1474,
+            "ardy-bf944e65d95d16984590": 0.2954,
+            "ardy-ed7ca98c512e012dbd52": 0.5573
+          },
+          "confidence": 0.1187,
+          "answer_confidence": 0.5573,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "semantic_scores": {
+          "ardy-bf944e65d95d16984590": 0.4072,
+          "ardy-ed7ca98c512e012dbd52": 0.3837
+        },
+        "best_action_id": "ardy-bf944e65d95d16984590",
+        "best_semantic_similarity": 0.4072,
+        "semantic_margin": 0.0235,
+        "decision_basis": "slow_planner",
+        "reflex_action_id": null,
+        "reflex_no_motion": true,
+        "elapsed_seconds": 0.0452,
+        "routing": {
+          "model": "multilingual",
+          "repo": "convaiinnovations/laya/multilingual",
+          "reason": "explicit model='multilingual'",
+          "detection": null,
+          "workflow": null
+        }
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:09:56+0800",
+      "monotonic_ms": 274230852.78,
+      "state": "speech_motion_sync_ready",
+      "source_event_id": "b4bcf4ee",
+      "audio": {
+        "state": "audio_ready",
+        "audio_seconds": 0.72,
+        "monotonic_ms": 274230842.123
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:09:58+0800",
+      "monotonic_ms": 274232163.812,
+      "state": "speech_complete",
+      "source_event_id": "4b00de88",
+      "elapsed_seconds": 2.05,
+      "result": {
+        "audio_seconds": 0.72,
+        "synthesis_seconds": 0.283,
+        "planning_seconds": 0.01,
+        "viseme_frames": 22,
+        "voice_port": 39543,
+        "played": true
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:10:05+0800",
+      "monotonic_ms": 274239998.995,
+      "state": "action_interrupted",
+      "source_event_id": "a1098734",
+      "result": {
+        "actor": "vodyanitsa",
+        "stopped": false
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:10:05+0800",
+      "monotonic_ms": 274240002.383,
+      "state": "planning_motion",
+      "source_event_id": "a1098734",
+      "user_text": "打个招呼"
+    },
+    {
+      "updated_at": "2026-09-25T23:10:06+0800",
+      "monotonic_ms": 274240075.743,
+      "state": "laya_decision",
+      "source_event_id": "a1098734",
+      "decision": {
+        "status": "decision",
+        "needs_motion": 0.0542,
+        "action_id": "ardy-bf944e65d95d16984590",
+        "need_answer": {
+          "type": "noul",
+          "noul": 0.0542,
+          "confidence": 0.9458,
+          "answer_confidence": 0.9458,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "choice_answer": {
+          "type": "choice",
+          "choice": "ardy-bf944e65d95d16984590",
+          "probabilities": {
+            "__none__": 0.0641,
+            "ardy-bf944e65d95d16984590": 0.6091,
+            "ardy-ed7ca98c512e012dbd52": 0.3268
+          },
+          "confidence": 0.2322,
+          "answer_confidence": 0.6091,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "semantic_scores": {
+          "ardy-bf944e65d95d16984590": 0.4534,
+          "ardy-ed7ca98c512e012dbd52": 0.4825
+        },
+        "best_action_id": "ardy-ed7ca98c512e012dbd52",
+        "best_semantic_similarity": 0.4825,
+        "semantic_margin": 0.0291,
+        "decision_basis": "slow_planner",
+        "reflex_action_id": null,
+        "reflex_no_motion": false,
+        "elapsed_seconds": 0.0545,
+        "routing": {
+          "model": "multilingual",
+          "repo": "convaiinnovations/laya/multilingual",
+          "reason": "explicit model='multilingual'",
+          "detection": null,
+          "workflow": null
+        }
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:10:08+0800",
+      "monotonic_ms": 274242245.705,
+      "state": "speech_motion_sync_ready",
+      "source_event_id": "a1098734",
+      "audio": {
+        "state": "audio_ready",
+        "audio_seconds": 2.0,
+        "monotonic_ms": 274242241.483
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:10:10+0800",
+      "monotonic_ms": 274244850.046,
+      "state": "speech_complete",
+      "source_event_id": "d5d094db",
+      "elapsed_seconds": 3.582,
+      "result": {
+        "audio_seconds": 2.0,
+        "synthesis_seconds": 0.485,
+        "planning_seconds": 0.01,
+        "viseme_frames": 60,
+        "voice_port": 39543,
+        "played": true
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:10:13+0800",
+      "monotonic_ms": 274247587.745,
+      "state": "motion_planned",
+      "source_event_id": "a1098734",
+      "elapsed_seconds": 7.585,
+      "plan": {
+        "mode": "none",
+        "action_id": null,
+        "ardy_prompt": "",
+        "duration_seconds": 5.0,
+        "mask": "full",
+        "loop": false,
+        "confidence": 0.0,
+        "reason": "用户说“打个招呼”是社交用语或表达意图，并非明确要求或暗示虚拟角色做出具体的身体动作（如挥手、鞠躬等），因此不触发动作模式。"
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:10:13+0800",
+      "monotonic_ms": 274247589.833,
+      "state": "no_motion",
+      "source_event_id": "a1098734",
+      "plan": {
+        "mode": "none",
+        "action_id": null,
+        "ardy_prompt": "",
+        "duration_seconds": 5.0,
+        "mask": "full",
+        "loop": false,
+        "confidence": 0.0,
+        "reason": "用户说“打个招呼”是社交用语或表达意图，并非明确要求或暗示虚拟角色做出具体的身体动作（如挥手、鞠躬等），因此不触发动作模式。"
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:10:20+0800",
+      "monotonic_ms": 274255050.785,
+      "state": "action_interrupted",
+      "source_event_id": "0ff884db",
+      "result": {
+        "actor": "vodyanitsa",
+        "stopped": false
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:10:20+0800",
+      "monotonic_ms": 274255052.917,
+      "state": "planning_motion",
+      "source_event_id": "0ff884db",
+      "user_text": "跳舞"
+    },
+    {
+      "updated_at": "2026-09-25T23:10:21+0800",
+      "monotonic_ms": 274255108.996,
+      "state": "laya_decision",
+      "source_event_id": "0ff884db",
+      "decision": {
+        "status": "decision",
+        "needs_motion": 0.2167,
+        "action_id": "__none__",
+        "need_answer": {
+          "type": "noul",
+          "noul": 0.2167,
+          "confidence": 0.7833,
+          "answer_confidence": 0.7833,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "choice_answer": {
+          "type": "choice",
+          "choice": "__none__",
+          "probabilities": {
+            "__none__": 0.3694,
+            "ardy-bf944e65d95d16984590": 0.3666,
+            "ardy-ed7ca98c512e012dbd52": 0.264
+          },
+          "confidence": 0.0102,
+          "answer_confidence": 0.3694,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "semantic_scores": {
+          "ardy-bf944e65d95d16984590": 0.3984,
+          "ardy-ed7ca98c512e012dbd52": 0.3484
+        },
+        "best_action_id": "ardy-bf944e65d95d16984590",
+        "best_semantic_similarity": 0.3984,
+        "semantic_margin": 0.05,
+        "decision_basis": "slow_planner",
+        "reflex_action_id": null,
+        "reflex_no_motion": false,
+        "elapsed_seconds": 0.0524,
+        "routing": {
+          "model": "multilingual",
+          "repo": "convaiinnovations/laya/multilingual",
+          "reason": "explicit model='multilingual'",
+          "detection": null,
+          "workflow": null
+        }
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:10:29+0800",
+      "monotonic_ms": 274263733.048,
+      "state": "speech_motion_sync_ready",
+      "source_event_id": "0ff884db",
+      "audio": {
+        "state": "audio_ready",
+        "audio_seconds": 4.32,
+        "monotonic_ms": 274263722.067
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:10:31+0800",
+      "monotonic_ms": 274266056.83,
+      "state": "motion_planned",
+      "source_event_id": "0ff884db",
+      "elapsed_seconds": 11.004,
+      "plan": {
+        "mode": "generate",
+        "action_id": null,
+        "ardy_prompt": "A person dances in place, shifting weight from foot to foot, waving both arms up and down, keeping both feet grounded, and finally returns to a neutral standing posture.",
+        "duration_seconds": 5.0,
+        "mask": "full",
+        "loop": false,
+        "confidence": 0.85,
+        "reason": "用户要求跳舞，但目录中没有通用的舞蹈动作，故生成新的跳舞提示词。"
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:10:31+0800",
+      "monotonic_ms": 274266059.782,
+      "state": "ardy_generating",
+      "source_event_id": "0ff884db",
+      "prompt": "A person dances in place, shifting weight from foot to foot, waving both arms up and down, keeping both feet grounded, and finally returns to a neutral standing posture.",
+      "duration_seconds": 5.0
+    },
+    {
+      "updated_at": "2026-09-25T23:10:32+0800",
+      "monotonic_ms": 274266078.924,
+      "state": "ardy_progress",
+      "source_event_id": "0ff884db",
+      "message": "Generating 100 frames"
+    },
+    {
+      "updated_at": "2026-09-25T23:10:34+0800",
+      "monotonic_ms": 274268667.518,
+      "state": "speech_complete",
+      "source_event_id": "0dc60247",
+      "elapsed_seconds": 6.367,
+      "result": {
+        "audio_seconds": 4.32,
+        "synthesis_seconds": 0.956,
+        "planning_seconds": 0.012,
+        "viseme_frames": 130,
+        "voice_port": 39543,
+        "played": true
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:10:48+0800",
+      "monotonic_ms": 274282597.446,
+      "state": "ardy_progress",
+      "source_event_id": "0ff884db",
+      "message": "Correcting foot contacts"
+    },
+    {
+      "updated_at": "2026-09-25T23:10:49+0800",
+      "monotonic_ms": 274283512.313,
+      "state": "planned_dispatched",
+      "route": "ardy",
+      "source_event_id": "0ff884db",
+      "plan": {
+        "mode": "generate",
+        "action_id": null,
+        "ardy_prompt": "A person dances in place, shifting weight from foot to foot, waving both arms up and down, keeping both feet grounded, and finally returns to a neutral standing posture.",
+        "duration_seconds": 5.0,
+        "mask": "full",
+        "loop": false,
+        "confidence": 0.85,
+        "reason": "用户要求跳舞，但目录中没有通用的舞蹈动作，故生成新的跳舞提示词。"
+      },
+      "generated": {
+        "npz": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\ardy-5530c868ebf6108a0399.npz",
+        "clip": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-22\\codex-threads-01a0c798-e451-7d22-bd56-4\\outputs\\Mocap动作总线\\clips\\generated\\ardy-5530c868ebf6108a0399.json",
+        "clip_file": "ardy-5530c868ebf6108a0399.json",
+        "frames": 100,
+        "fps": 20.0,
+        "cache_key": "5530c868ebf6108a0399",
+        "cached": false,
+        "worker": {
+          "status": "done",
+          "path": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\ardy-5530c868ebf6108a0399.npz",
+          "frames": 100,
+          "fps": 20.0
+        }
+      },
+      "saved_action": {
+        "id": "ardy-5530c868ebf6108a0399",
+        "label": "ARDY · 跳舞",
+        "tags": [
+          "ARDY",
+          "生成动作"
+        ],
+        "ardy_prompt": "A person dances in place, shifting weight from foot to foot, waving both arms up and down, keeping both feet grounded, and finally returns to a neutral standing posture.",
+        "duration_seconds": 5.0,
+        "mask": "full",
+        "file": "ardy-5530c868ebf6108a0399.json",
+        "npz": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\ardy-5530c868ebf6108a0399.npz",
+        "frames": 100,
+        "fps": 20.0,
+        "model": "ARDY-Core-RP-20FPS-Horizon40",
+        "text_encoder": "MiniLM ARDY Core40 distilled",
+        "created_at": "2026-09-25T23:10:49+0800",
+        "last_used_at": "2026-09-25T23:10:49+0800",
+        "use_count": 1,
+        "user_examples": [
+          "跳舞"
+        ]
+      },
+      "result": {
+        "id": "generated-5d1a29efb52e",
+        "label": "ARDY · 跳舞",
+        "mask": "full",
+        "loop": false,
+        "elapsed_seconds": 0.0,
+        "duration_seconds": 5.0
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:42:49+0800",
+      "monotonic_ms": 276203779.199,
+      "state": "starting",
+      "rules": 0
+    },
+    {
+      "updated_at": "2026-09-25T23:42:49+0800",
+      "monotonic_ms": 276203779.279,
+      "state": "ardy_loading"
+    },
+    {
+      "updated_at": "2026-09-25T23:42:49+0800",
+      "monotonic_ms": 276203779.385,
+      "state": "laya_loading",
+      "device": "cuda"
+    },
+    {
+      "updated_at": "2026-09-25T23:42:49+0800",
+      "monotonic_ms": 276203792.649,
+      "state": "connected",
+      "event_url": "http://127.0.0.1:8768/api/characters/yuri/events?presence=0&body=0"
+    },
+    {
+      "updated_at": "2026-09-25T23:42:57+0800",
+      "monotonic_ms": 276211586.424,
+      "state": "ardy_ready",
+      "model": "ARDY-Core-RP-20FPS-Horizon40",
+      "fps": 20.0
+    },
+    {
+      "updated_at": "2026-09-25T23:42:57+0800",
+      "monotonic_ms": 276211588.929,
+      "state": "ardy_warming",
+      "steps": 1
+    },
+    {
+      "updated_at": "2026-09-25T23:43:01+0800",
+      "monotonic_ms": 276215829.764,
+      "state": "ardy_warm",
+      "steps": 1
+    },
+    {
+      "updated_at": "2026-09-25T23:43:16+0800",
+      "monotonic_ms": 276230867.148,
+      "state": "laya_ready",
+      "device": "cuda",
+      "model": "multilingual",
+      "embedder": "bge-small-zh-v1.5"
+    },
+    {
+      "updated_at": "2026-09-25T23:43:35+0800",
+      "monotonic_ms": 276249307.513,
+      "state": "action_interrupted",
+      "source_event_id": "133babb9",
+      "result": {
+        "actor": "vodyanitsa",
+        "stopped": false
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:43:35+0800",
+      "monotonic_ms": 276249311.605,
+      "state": "planning_motion",
+      "source_event_id": "133babb9",
+      "user_text": "跳舞"
+    },
+    {
+      "updated_at": "2026-09-25T23:43:35+0800",
+      "monotonic_ms": 276249386.725,
+      "state": "laya_decision",
+      "source_event_id": "133babb9",
+      "decision": {
+        "status": "decision",
+        "needs_motion": 0.218,
+        "action_id": "ardy-ed7ca98c512e012dbd52",
+        "need_answer": {
+          "type": "noul",
+          "noul": 0.218,
+          "confidence": 0.782,
+          "answer_confidence": 0.782,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "choice_answer": {
+          "type": "choice",
+          "choice": "ardy-ed7ca98c512e012dbd52",
+          "probabilities": {
+            "__none__": 0.1717,
+            "ardy-bf944e65d95d16984590": 0.1189,
+            "ardy-ed7ca98c512e012dbd52": 0.5993,
+            "ardy-f15e3a11f2b5459f433b": 0.11
+          },
+          "confidence": 0.2026,
+          "answer_confidence": 0.5993,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "semantic_scores": {
+          "ardy-bf944e65d95d16984590": 0.3984,
+          "ardy-ed7ca98c512e012dbd52": 0.3484,
+          "ardy-f15e3a11f2b5459f433b": 0.6488
+        },
+        "best_action_id": "ardy-f15e3a11f2b5459f433b",
+        "best_semantic_similarity": 0.6488,
+        "semantic_margin": 0.2504,
+        "decision_basis": "slow_planner",
+        "reflex_action_id": null,
+        "reflex_no_motion": false,
+        "elapsed_seconds": 0.0525,
+        "routing": {
+          "model": "multilingual",
+          "repo": "convaiinnovations/laya/multilingual",
+          "reason": "explicit model='multilingual'",
+          "detection": null,
+          "workflow": null
+        }
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:43:43+0800",
+      "monotonic_ms": 276257162.463,
+      "state": "assistant_motion_context",
+      "source_event_id": "133babb9",
+      "stage_directions": "她轻轻走到窗前，雨声滴答，她踮起脚尖，身体随着那细微的节奏轻轻摇曳。动作很简单，像是一株植物在夜里随着风呼吸。"
+    },
+    {
+      "updated_at": "2026-09-25T23:43:44+0800",
+      "monotonic_ms": 276258230.261,
+      "state": "speech_motion_sync_ready",
+      "source_event_id": "133babb9",
+      "audio": {
+        "state": "audio_ready",
+        "audio_seconds": 1.12,
+        "monotonic_ms": 276258221.36
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:43:45+0800",
+      "monotonic_ms": 276259968.914,
+      "state": "speech_complete",
+      "source_event_id": "447f3389",
+      "elapsed_seconds": 2.802,
+      "result": {
+        "audio_seconds": 1.12,
+        "synthesis_seconds": 0.498,
+        "planning_seconds": 0.012,
+        "viseme_frames": 34,
+        "voice_port": 39543,
+        "played": true
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:44:01+0800",
+      "monotonic_ms": 276275175.251,
+      "state": "motion_planned",
+      "source_event_id": "133babb9",
+      "elapsed_seconds": 25.864,
+      "plan": {
+        "mode": "catalog",
+        "action_id": "ardy-f15e3a11f2b5459f433b",
+        "ardy_prompt": "",
+        "duration_seconds": 5.0,
+        "mask": "full",
+        "loop": false,
+        "confidence": 0.95,
+        "reason": "目录中已存在语义匹配度极高的‘柔和脚尖舞’动作，符合用户‘跳舞’及助手描述的‘踮起脚尖’、‘轻轻摇曳’的特征。",
+        "assistant_action_text": "她轻轻走到窗前，雨声滴答，她踮起脚尖，身体随着那细微的节奏轻轻摇曳。动作很简单，像是一株植物在夜里随着风呼吸。"
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:44:01+0800",
+      "monotonic_ms": 276275211.817,
+      "state": "planned_dispatched",
+      "route": "ardy_cache",
+      "source_event_id": "133babb9",
+      "plan": {
+        "mode": "catalog",
+        "action_id": "ardy-f15e3a11f2b5459f433b",
+        "ardy_prompt": "",
+        "duration_seconds": 5.0,
+        "mask": "full",
+        "loop": false,
+        "confidence": 0.95,
+        "reason": "目录中已存在语义匹配度极高的‘柔和脚尖舞’动作，符合用户‘跳舞’及助手描述的‘踮起脚尖’、‘轻轻摇曳’的特征。",
+        "assistant_action_text": "她轻轻走到窗前，雨声滴答，她踮起脚尖，身体随着那细微的节奏轻轻摇曳。动作很简单，像是一株植物在夜里随着风呼吸。"
+      },
+      "saved_action": {
+        "id": "ardy-f15e3a11f2b5459f433b",
+        "label": "ARDY · 柔和脚尖舞",
+        "tags": [
+          "ARDY",
+          "生成动作",
+          "跳舞",
+          "柔和摇曳",
+          "脚尖画弧"
+        ],
+        "ardy_prompt": "A shy person performs a gentle simple dance in place, swaying softly from side to side, shifting weight between both feet, tracing small semicircles on the floor with alternating toes, opening clasped hands into soft flowing arm gestures, keeping the head facing forward, and finally returning to a neutral standing posture.",
+        "duration_seconds": 5.0,
+        "mask": "full",
+        "file": "ardy-f15e3a11f2b5459f433b.json",
+        "npz": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\ardy-f15e3a11f2b5459f433b.npz",
+        "frames": 100,
+        "fps": 20.0,
+        "model": "ARDY-Core-RP-20FPS-Horizon40-10steps",
+        "generation_steps": 10,
+        "text_encoder": "MiniLM ARDY Core40 distilled",
+        "created_at": "2026-09-25T23:40:18+0800",
+        "last_used_at": "2026-09-25T23:44:01+0800",
+        "use_count": 2,
+        "user_examples": [
+          "跳舞"
+        ],
+        "assistant_action_examples": [
+          "她有些拘谨地站在原地，手指轻轻绞在一起，随后小心翼翼地挪到窗边的空地上。她随着雨声轻轻摇曳，动作简单而柔和，脚尖在地板上划出细小的弧线，眼神怯生生地看着你。"
+        ],
+        "scene_grounding": {
+          "available_interaction_objects": [],
+          "removed": [
+            "窗户",
+            "窗边"
+          ],
+          "adapted_to": "原地小步、身体摇曳和脚尖画弧"
+        }
+      },
+      "result": {
+        "id": "generated-14f3537bc753",
+        "label": "ARDY · 柔和脚尖舞",
+        "mask": "full",
+        "loop": false,
+        "elapsed_seconds": 0.0,
+        "duration_seconds": 5.0
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:46:50+0800",
+      "monotonic_ms": 276444612.112,
+      "state": "ardy_loading"
+    },
+    {
+      "updated_at": "2026-09-25T23:46:50+0800",
+      "monotonic_ms": 276444612.267,
+      "state": "starting",
+      "rules": 0
+    },
+    {
+      "updated_at": "2026-09-25T23:46:50+0800",
+      "monotonic_ms": 276444612.411,
+      "state": "laya_loading",
+      "device": "cuda"
+    },
+    {
+      "updated_at": "2026-09-25T23:46:50+0800",
+      "monotonic_ms": 276444625.002,
+      "state": "connected",
+      "event_url": "http://127.0.0.1:8768/api/characters/yuri/events?presence=0&body=0"
+    },
+    {
+      "updated_at": "2026-09-25T23:46:58+0800",
+      "monotonic_ms": 276452869.512,
+      "state": "ardy_ready",
+      "model": "ARDY-Core-RP-20FPS-Horizon40",
+      "fps": 20.0
+    },
+    {
+      "updated_at": "2026-09-25T23:46:58+0800",
+      "monotonic_ms": 276452871.395,
+      "state": "ardy_warming",
+      "steps": 1
+    },
+    {
+      "updated_at": "2026-09-25T23:47:01+0800",
+      "monotonic_ms": 276455648.527,
+      "state": "ardy_warm",
+      "steps": 1
+    },
+    {
+      "updated_at": "2026-09-25T23:47:09+0800",
+      "monotonic_ms": 276463115.254,
+      "state": "laya_ready",
+      "device": "cuda",
+      "model": "multilingual",
+      "embedder": "bge-small-zh-v1.5"
+    },
+    {
+      "updated_at": "2026-09-25T23:47:29+0800",
+      "monotonic_ms": 276483917.076,
+      "state": "action_interrupted",
+      "source_event_id": "82a89730",
+      "result": {
+        "actor": "vodyanitsa",
+        "stopped": false
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:47:29+0800",
+      "monotonic_ms": 276483920.163,
+      "state": "planning_motion",
+      "source_event_id": "82a89730",
+      "user_text": "跳舞"
+    },
+    {
+      "updated_at": "2026-09-25T23:47:29+0800",
+      "monotonic_ms": 276483957.063,
+      "state": "laya_decision",
+      "source_event_id": "82a89730",
+      "decision": {
+        "status": "decision",
+        "needs_motion": 0.218,
+        "action_id": "ardy-ed7ca98c512e012dbd52",
+        "need_answer": {
+          "type": "noul",
+          "noul": 0.218,
+          "confidence": 0.782,
+          "answer_confidence": 0.782,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "choice_answer": {
+          "type": "choice",
+          "choice": "ardy-ed7ca98c512e012dbd52",
+          "probabilities": {
+            "__none__": 0.1717,
+            "ardy-bf944e65d95d16984590": 0.1189,
+            "ardy-ed7ca98c512e012dbd52": 0.5993,
+            "ardy-f15e3a11f2b5459f433b": 0.11
+          },
+          "confidence": 0.2026,
+          "answer_confidence": 0.5993,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "semantic_scores": {
+          "ardy-bf944e65d95d16984590": 0.3984,
+          "ardy-ed7ca98c512e012dbd52": 0.3484,
+          "ardy-f15e3a11f2b5459f433b": 0.6488
+        },
+        "best_action_id": "ardy-f15e3a11f2b5459f433b",
+        "best_semantic_similarity": 0.6488,
+        "semantic_margin": 0.2504,
+        "decision_basis": "exact_user_example",
+        "exact_action_id": "ardy-f15e3a11f2b5459f433b",
+        "reflex_action_id": "ardy-f15e3a11f2b5459f433b",
+        "reflex_no_motion": false,
+        "elapsed_seconds": 0.0327,
+        "routing": {
+          "model": "multilingual",
+          "repo": "convaiinnovations/laya/multilingual",
+          "reason": "explicit model='multilingual'",
+          "detection": null,
+          "workflow": null
+        }
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:47:36+0800",
+      "monotonic_ms": 276490488.861,
+      "state": "assistant_motion_context",
+      "source_event_id": "82a89730",
+      "stage_directions": "她轻轻挪到窗前，脚尖点在地板上，随着雨声划出一个小小的弧度，动作轻盈而不张扬。"
+    },
+    {
+      "updated_at": "2026-09-25T23:47:37+0800",
+      "monotonic_ms": 276491559.361,
+      "state": "speech_motion_sync_ready",
+      "source_event_id": "82a89730",
+      "audio": {
+        "state": "audio_ready",
+        "audio_seconds": 1.76,
+        "monotonic_ms": 276491543.851
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:47:37+0800",
+      "monotonic_ms": 276491592.547,
+      "state": "reflex_dispatched",
+      "route": "laya",
+      "source_event_id": "82a89730",
+      "decision": {
+        "status": "decision",
+        "needs_motion": 0.218,
+        "action_id": "ardy-ed7ca98c512e012dbd52",
+        "need_answer": {
+          "type": "noul",
+          "noul": 0.218,
+          "confidence": 0.782,
+          "answer_confidence": 0.782,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "choice_answer": {
+          "type": "choice",
+          "choice": "ardy-ed7ca98c512e012dbd52",
+          "probabilities": {
+            "__none__": 0.1717,
+            "ardy-bf944e65d95d16984590": 0.1189,
+            "ardy-ed7ca98c512e012dbd52": 0.5993,
+            "ardy-f15e3a11f2b5459f433b": 0.11
+          },
+          "confidence": 0.2026,
+          "answer_confidence": 0.5993,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "semantic_scores": {
+          "ardy-bf944e65d95d16984590": 0.3984,
+          "ardy-ed7ca98c512e012dbd52": 0.3484,
+          "ardy-f15e3a11f2b5459f433b": 0.6488
+        },
+        "best_action_id": "ardy-f15e3a11f2b5459f433b",
+        "best_semantic_similarity": 0.6488,
+        "semantic_margin": 0.2504,
+        "decision_basis": "exact_user_example",
+        "exact_action_id": "ardy-f15e3a11f2b5459f433b",
+        "reflex_action_id": "ardy-f15e3a11f2b5459f433b",
+        "reflex_no_motion": false,
+        "elapsed_seconds": 0.0327,
+        "routing": {
+          "model": "multilingual",
+          "repo": "convaiinnovations/laya/multilingual",
+          "reason": "explicit model='multilingual'",
+          "detection": null,
+          "workflow": null
+        }
+      },
+      "saved_action": {
+        "id": "ardy-f15e3a11f2b5459f433b",
+        "label": "ARDY · 柔和脚尖舞",
+        "tags": [
+          "ARDY",
+          "生成动作",
+          "跳舞",
+          "柔和摇曳",
+          "脚尖画弧"
+        ],
+        "ardy_prompt": "A shy person performs a gentle simple dance in place, swaying softly from side to side, shifting weight between both feet, tracing small semicircles on the floor with alternating toes, opening clasped hands into soft flowing arm gestures, keeping the head facing forward, and finally returning to a neutral standing posture.",
+        "duration_seconds": 5.0,
+        "mask": "full",
+        "file": "ardy-f15e3a11f2b5459f433b.json",
+        "npz": "C:\\Users\\mozi\\Documents\\Codex\\2026-09-14\\ardy-github-blender\\outputs\\motions\\ardy-f15e3a11f2b5459f433b.npz",
+        "frames": 100,
+        "fps": 20.0,
+        "model": "ARDY-Core-RP-20FPS-Horizon40-10steps",
+        "generation_steps": 10,
+        "text_encoder": "MiniLM ARDY Core40 distilled",
+        "created_at": "2026-09-25T23:40:18+0800",
+        "last_used_at": "2026-09-25T23:47:37+0800",
+        "use_count": 3,
+        "user_examples": [
+          "跳舞"
+        ],
+        "assistant_action_examples": [
+          "她有些拘谨地站在原地，手指轻轻绞在一起，随后小心翼翼地挪到窗边的空地上。她随着雨声轻轻摇曳，动作简单而柔和，脚尖在地板上划出细小的弧线，眼神怯生生地看着你。"
+        ],
+        "scene_grounding": {
+          "available_interaction_objects": [],
+          "removed": [
+            "窗户",
+            "窗边"
+          ],
+          "adapted_to": "原地小步、身体摇曳和脚尖画弧"
+        }
+      },
+      "result": {
+        "id": "generated-e9b894b1b56c",
+        "label": "ARDY · 柔和脚尖舞",
+        "mask": "full",
+        "loop": false,
+        "elapsed_seconds": 0.0,
+        "duration_seconds": 5.0
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:47:39+0800",
+      "monotonic_ms": 276493933.245,
+      "state": "speech_complete",
+      "source_event_id": "243e5122",
+      "elapsed_seconds": 3.441,
+      "result": {
+        "audio_seconds": 1.76,
+        "synthesis_seconds": 0.495,
+        "planning_seconds": 0.012,
+        "viseme_frames": 53,
+        "voice_port": 39543,
+        "played": true
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:58:38+0800",
+      "monotonic_ms": 277152653.946,
+      "state": "action_interrupted",
+      "source_event_id": "82b700e9",
+      "result": {
+        "actor": "vodyanitsa",
+        "stopped": false
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:58:38+0800",
+      "monotonic_ms": 277152656.721,
+      "state": "planning_motion",
+      "source_event_id": "82b700e9",
+      "user_text": "笑一个"
+    },
+    {
+      "updated_at": "2026-09-25T23:58:38+0800",
+      "monotonic_ms": 277152691.076,
+      "state": "laya_decision",
+      "source_event_id": "82b700e9",
+      "decision": {
+        "status": "decision",
+        "needs_motion": 0.0279,
+        "action_id": "ardy-ed7ca98c512e012dbd52",
+        "need_answer": {
+          "type": "noul",
+          "noul": 0.0279,
+          "confidence": 0.9721,
+          "answer_confidence": 0.9721,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "choice_answer": {
+          "type": "choice",
+          "choice": "ardy-ed7ca98c512e012dbd52",
+          "probabilities": {
+            "__none__": 0.0728,
+            "ardy-bf944e65d95d16984590": 0.1155,
+            "ardy-ed7ca98c512e012dbd52": 0.7354,
+            "ardy-f15e3a11f2b5459f433b": 0.0763
+          },
+          "confidence": 0.3779,
+          "answer_confidence": 0.7354,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "semantic_scores": {
+          "ardy-bf944e65d95d16984590": 0.3873,
+          "ardy-ed7ca98c512e012dbd52": 0.3765,
+          "ardy-f15e3a11f2b5459f433b": 0.3206
+        },
+        "best_action_id": "ardy-bf944e65d95d16984590",
+        "best_semantic_similarity": 0.3873,
+        "semantic_margin": 0.0108,
+        "decision_basis": "slow_planner",
+        "exact_action_id": null,
+        "reflex_action_id": null,
+        "reflex_no_motion": false,
+        "elapsed_seconds": 0.0303,
+        "routing": {
+          "model": "multilingual",
+          "repo": "convaiinnovations/laya/multilingual",
+          "reason": "explicit model='multilingual'",
+          "detection": null,
+          "workflow": null
+        }
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:59:26+0800",
+      "monotonic_ms": 277200814.71,
+      "state": "assistant_motion_context",
+      "source_event_id": "82b700e9",
+      "stage_directions": "她看着你，嘴角慢慢弯起，脸颊泛起淡淡的红晕。 她轻轻抬眼，绽出一个柔和而明亮的笑容，眼睛弯成了月牙状，带着一点不好意思的温柔。"
+    },
+    {
+      "updated_at": "2026-09-25T23:59:27+0800",
+      "monotonic_ms": 277201083.858,
+      "state": "motion_plan_failed",
+      "source_event_id": "82b700e9",
+      "error": "The read operation timed out"
+    },
+    {
+      "updated_at": "2026-09-25T23:59:27+0800",
+      "monotonic_ms": 277201960.331,
+      "state": "speech_motion_sync_ready",
+      "source_event_id": "82b700e9",
+      "audio": {
+        "state": "audio_ready",
+        "audio_seconds": 2.88,
+        "monotonic_ms": 277201955.95
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:59:31+0800",
+      "monotonic_ms": 277205431.56,
+      "state": "speech_complete",
+      "source_event_id": "6fed7140",
+      "elapsed_seconds": 4.614,
+      "result": {
+        "audio_seconds": 2.88,
+        "synthesis_seconds": 0.683,
+        "planning_seconds": 0.01,
+        "viseme_frames": 87,
+        "voice_port": 39543,
+        "played": true
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:59:48+0800",
+      "monotonic_ms": 277222561.793,
+      "state": "action_interrupted",
+      "source_event_id": "4ad96530",
+      "result": {
+        "actor": "vodyanitsa",
+        "stopped": false
+      }
+    },
+    {
+      "updated_at": "2026-09-25T23:59:48+0800",
+      "monotonic_ms": 277222564.646,
+      "state": "planning_motion",
+      "source_event_id": "4ad96530",
+      "user_text": "跳跃"
+    },
+    {
+      "updated_at": "2026-09-25T23:59:48+0800",
+      "monotonic_ms": 277222639.679,
+      "state": "laya_decision",
+      "source_event_id": "4ad96530",
+      "decision": {
+        "status": "decision",
+        "needs_motion": 0.22,
+        "action_id": "ardy-ed7ca98c512e012dbd52",
+        "need_answer": {
+          "type": "noul",
+          "noul": 0.22,
+          "confidence": 0.78,
+          "answer_confidence": 0.78,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "choice_answer": {
+          "type": "choice",
+          "choice": "ardy-ed7ca98c512e012dbd52",
+          "probabilities": {
+            "__none__": 0.1346,
+            "ardy-bf944e65d95d16984590": 0.1943,
+            "ardy-ed7ca98c512e012dbd52": 0.5645,
+            "ardy-f15e3a11f2b5459f433b": 0.1065
+          },
+          "confidence": 0.1707,
+          "answer_confidence": 0.5645,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "semantic_scores": {
+          "ardy-bf944e65d95d16984590": 0.4239,
+          "ardy-ed7ca98c512e012dbd52": 0.3826,
+          "ardy-f15e3a11f2b5459f433b": 0.4928
+        },
+        "best_action_id": "ardy-f15e3a11f2b5459f433b",
+        "best_semantic_similarity": 0.4928,
+        "semantic_margin": 0.0689,
+        "decision_basis": "slow_planner",
+        "exact_action_id": null,
+        "reflex_action_id": null,
+        "reflex_no_motion": false,
+        "elapsed_seconds": 0.0496,
+        "routing": {
+          "model": "multilingual",
+          "repo": "convaiinnovations/laya/multilingual",
+          "reason": "explicit model='multilingual'",
+          "detection": null,
+          "workflow": null
+        }
+      }
+    },
+    {
+      "updated_at": "2026-09-26T00:00:36+0800",
+      "monotonic_ms": 277270519.558,
+      "state": "motion_plan_failed",
+      "source_event_id": "4ad96530",
+      "error": "The read operation timed out"
+    },
+    {
+      "updated_at": "2026-09-26T00:01:01+0800",
+      "monotonic_ms": 277295574.169,
+      "state": "assistant_motion_context",
+      "source_event_id": "4ad96530",
+      "stage_directions": "她有些惊讶地看着你，随后轻轻点了点头，脸颊微微泛红。 她踮起脚尖，轻轻跃起，动作很轻，几乎没有发出声音，落地时也稳稳当当。她落地后微微喘了一口气，有些害羞地垂下眼帘。"
+    },
+    {
+      "updated_at": "2026-09-26T00:01:02+0800",
+      "monotonic_ms": 277296910.84,
+      "state": "speech_motion_sync_ready",
+      "source_event_id": "4ad96530",
+      "audio": {
+        "state": "audio_ready",
+        "audio_seconds": 3.68,
+        "monotonic_ms": 277296899.651
+      }
+    },
+    {
+      "updated_at": "2026-09-26T00:01:07+0800",
+      "monotonic_ms": 277301197.589,
+      "state": "speech_complete",
+      "source_event_id": "41e2dffe",
+      "elapsed_seconds": 5.619,
+      "result": {
+        "audio_seconds": 3.68,
+        "synthesis_seconds": 0.89,
+        "planning_seconds": 0.01,
+        "viseme_frames": 111,
+        "voice_port": 39543,
+        "played": true
+      }
+    },
+    {
+      "updated_at": "2026-09-26T00:18:08+0800",
+      "monotonic_ms": 278322101.822,
+      "state": "ardy_loading"
+    },
+    {
+      "updated_at": "2026-09-26T00:18:08+0800",
+      "monotonic_ms": 278322101.985,
+      "state": "starting",
+      "rules": 0
+    },
+    {
+      "updated_at": "2026-09-26T00:18:08+0800",
+      "monotonic_ms": 278322102.122,
+      "state": "laya_loading",
+      "device": "cuda"
+    },
+    {
+      "updated_at": "2026-09-26T00:18:08+0800",
+      "monotonic_ms": 278322114.194,
+      "state": "connected",
+      "event_url": "http://127.0.0.1:8768/api/characters/yuri/events?presence=0&body=0"
+    },
+    {
+      "updated_at": "2026-09-26T00:18:16+0800",
+      "monotonic_ms": 278330141.61,
+      "state": "ardy_ready",
+      "model": "ARDY-Core-RP-20FPS-Horizon40",
+      "fps": 20.0
+    },
+    {
+      "updated_at": "2026-09-26T00:18:16+0800",
+      "monotonic_ms": 278330144.109,
+      "state": "ardy_warming",
+      "steps": 1
+    },
+    {
+      "updated_at": "2026-09-26T00:18:17+0800",
+      "monotonic_ms": 278331287.225,
+      "state": "ardy_warm",
+      "steps": 1
+    },
+    {
+      "updated_at": "2026-09-26T00:18:20+0800",
+      "monotonic_ms": 278334371.899,
+      "state": "laya_ready",
+      "device": "cuda",
+      "model": "multilingual",
+      "embedder": "bge-small-zh-v1.5"
+    },
+    {
+      "updated_at": "2026-09-26T00:18:58+0800",
+      "monotonic_ms": 278372084.332,
+      "state": "action_interrupted",
+      "source_event_id": "aa596d7e",
+      "result": {
+        "actor": "vodyanitsa",
+        "stopped": false
+      }
+    },
+    {
+      "updated_at": "2026-09-26T00:18:58+0800",
+      "monotonic_ms": 278372086.862,
+      "state": "planning_motion",
+      "source_event_id": "aa596d7e",
+      "user_text": "跳跃"
+    },
+    {
+      "updated_at": "2026-09-26T00:18:58+0800",
+      "monotonic_ms": 278372140.323,
+      "state": "laya_decision",
+      "source_event_id": "aa596d7e",
+      "decision": {
+        "status": "decision",
+        "needs_motion": 0.22,
+        "action_id": "ardy-ed7ca98c512e012dbd52",
+        "need_answer": {
+          "type": "noul",
+          "noul": 0.22,
+          "confidence": 0.78,
+          "answer_confidence": 0.78,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "choice_answer": {
+          "type": "choice",
+          "choice": "ardy-ed7ca98c512e012dbd52",
+          "probabilities": {
+            "__none__": 0.1346,
+            "ardy-bf944e65d95d16984590": 0.1943,
+            "ardy-ed7ca98c512e012dbd52": 0.5645,
+            "ardy-f15e3a11f2b5459f433b": 0.1065
+          },
+          "confidence": 0.1707,
+          "answer_confidence": 0.5645,
+          "action": {
+            "act_probability": 1.0
+          }
+        },
+        "semantic_scores": {
+          "ardy-bf944e65d95d16984590": 0.4239,
+          "ardy-ed7ca98c512e012dbd52": 0.3826,
+          "ardy-f15e3a11f2b5459f433b": 0.4928
+        },
+        "best_action_id": "ardy-f15e3a11f2b5459f433b",
+        "best_semantic_similarity": 0.4928,
+        "semantic_margin": 0.0689,
+        "decision_basis": "slow_planner",
+        "exact_action_id": null,
+        "reflex_action_id": null,
+        "reflex_no_motion": false,
+        "elapsed_seconds": 0.05,
+        "routing": {
+          "model": "multilingual",
+          "repo": "convaiinnovations/laya/multilingual",
+          "reason": "explicit model='multilingual'",
+          "detection": null,
+          "workflow": null
+        }
+      }
+    }
+  ]
+}

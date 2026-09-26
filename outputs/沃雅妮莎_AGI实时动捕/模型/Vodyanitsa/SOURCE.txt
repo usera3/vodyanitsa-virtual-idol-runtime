@@ -1,0 +1,7 @@
+Source: https://github.com/Phoshco/gi/tree/main/chars/Vodyanitsa
+Preview: https://phoshco.github.io/model-viewer/vodyanitsa
+Retrieved: 2026-09-23
+Files verified against GitHub Git blob SHA-1 values.
+PMX parsed; missing referenced textures: []
+Visual rendering and rig behavior have not been tested.
+This downloaded copy does not grant additional licensing permissions. Preserve the model credits in its PMX comments.

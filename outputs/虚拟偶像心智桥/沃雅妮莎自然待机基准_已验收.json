@@ -1,0 +1,35 @@
+{
+  "approved_at": "2026-09-26T17:08:03.9178331+08:00",
+  "character": "沃雅妮莎",
+  "human_reviewed": true,
+  "approved": true,
+  "description": "自然站立待机：双手可见，双臂放松，全身持续微动",
+  "behavior_source": "behavior",
+  "fps": 30,
+  "published_bones": 22,
+  "arm_directions": {
+    "left_upper": [
+      0.2066,
+      0.0059,
+      -0.9784
+    ],
+    "left_lower": [
+      0.2631,
+      0.0059,
+      -0.9648
+    ],
+    "right_upper": [
+      -0.1953,
+      0.0051,
+      -0.9807
+    ],
+    "right_lower": [
+      -0.2519,
+      0.0049,
+      -0.9677
+    ]
+  },
+  "blink_channel": "Blink -> まばたき",
+  "visible_blinks": 66,
+  "active_action": null
+}

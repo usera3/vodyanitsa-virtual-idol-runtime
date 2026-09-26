@@ -1,0 +1,211 @@
+{
+  "reply_seconds": 2.741,
+  "user_id": "a03f4e21",
+  "assistant_id": "f28a53ef",
+  "reply": "好。\n*她先轻轻转身，望向你，目光里带着柔和的期待，随即低头，露出一个轻轻的笑容。*",
+  "observed_active_cues": [],
+  "samples_with_cues": 0,
+  "audit": [
+    {
+      "updated_at": "2026-09-26T01:53:50+0800",
+      "monotonic_ms": 284065045.189,
+      "state": "action_interrupted",
+      "source_event_id": "a03f4e21",
+      "result": {
+        "actor": "vodyanitsa",
+        "stopped": false
+      }
+    },
+    {
+      "updated_at": "2026-09-26T01:53:50+0800",
+      "monotonic_ms": 284065047.556,
+      "state": "planning_motion",
+      "source_event_id": "a03f4e21",
+      "user_text": "不要做大动作。请用动作描写写出你先转身望向我、再低头微笑，然后说一句你好。"
+    },
+    {
+      "updated_at": "2026-09-26T01:53:50+0800",
+      "monotonic_ms": 284065053.668,
+      "state": "speech_synthesizing",
+      "source_event_id": "fast:a03f4e21",
+      "motion_source_event_id": "a03f4e21",
+      "text": "好。"
+    },
+    {
+      "updated_at": "2026-09-26T01:53:50+0800",
+      "monotonic_ms": 284065061.652,
+      "state": "motion_planned",
+      "route": "local_reflex",
+      "source_event_id": "a03f4e21",
+      "elapsed_seconds": 0.014,
+      "plan": {
+        "mode": "expression",
+        "expression": "Joy",
+        "intensity": 0.9,
+        "duration_seconds": 3.5,
+        "mask": "expression",
+        "loop": false,
+        "confidence": 1.0,
+        "reason": "表情反射无需 ARDY",
+        "assistant_action_text": ""
+      }
+    },
+    {
+      "updated_at": "2026-09-26T01:53:51+0800",
+      "monotonic_ms": 284065800.225,
+      "state": "speech_motion_sync_ready",
+      "source_event_id": "a03f4e21",
+      "audio": {
+        "state": "audio_ready",
+        "audio_seconds": 0.88,
+        "monotonic_ms": 284065795.887
+      },
+      "performance_cues": []
+    },
+    {
+      "updated_at": "2026-09-26T01:53:51+0800",
+      "monotonic_ms": 284065800.33,
+      "state": "expression_dispatched",
+      "route": "local_reflex",
+      "source_event_id": "a03f4e21",
+      "plan": {
+        "mode": "expression",
+        "expression": "Joy",
+        "intensity": 0.9,
+        "duration_seconds": 3.5,
+        "mask": "expression",
+        "loop": false,
+        "confidence": 1.0,
+        "reason": "表情反射无需 ARDY",
+        "assistant_action_text": ""
+      }
+    },
+    {
+      "updated_at": "2026-09-26T01:53:51+0800",
+      "monotonic_ms": 284065803.328,
+      "state": "speaking",
+      "source_event_id": "fast:a03f4e21",
+      "motion_source_event_id": "a03f4e21",
+      "text": "好。",
+      "audio": {
+        "state": "audio_ready",
+        "audio_seconds": 0.88,
+        "monotonic_ms": 284065795.887
+      }
+    },
+    {
+      "updated_at": "2026-09-26T01:53:53+0800",
+      "monotonic_ms": 284067633.057,
+      "state": "assistant_motion_context",
+      "source_event_id": "a03f4e21",
+      "stage_directions": "她先轻轻转身，望向你，目光里带着柔和的期待，随即低头，露出一个轻轻的笑容。",
+      "performance_cues": [
+        {
+          "kind": "turn",
+          "start": 0.92,
+          "duration": 0.34,
+          "intensity": 0.8,
+          "source": "她先轻轻转身，望向你，目光里带着柔和的期待，随即低头，露出一个轻轻的笑容。"
+        },
+        {
+          "kind": "look",
+          "start": 0.92,
+          "duration": 0.32,
+          "intensity": 0.75,
+          "source": "她先轻轻转身，望向你，目光里带着柔和的期待，随即低头，露出一个轻轻的笑容。"
+        },
+        {
+          "kind": "lower_head",
+          "start": 0.92,
+          "duration": 0.32,
+          "intensity": 0.8,
+          "source": "她先轻轻转身，望向你，目光里带着柔和的期待，随即低头，露出一个轻轻的笑容。"
+        },
+        {
+          "kind": "smile",
+          "start": 0.92,
+          "duration": 0.46,
+          "intensity": 0.7,
+          "source": "她先轻轻转身，望向你，目光里带着柔和的期待，随即低头，露出一个轻轻的笑容。"
+        }
+      ]
+    },
+    {
+      "updated_at": "2026-09-26T01:53:53+0800",
+      "monotonic_ms": 284067643.676,
+      "state": "speech_synthesizing",
+      "source_event_id": "f28a53ef",
+      "motion_source_event_id": "a03f4e21",
+      "text": "好。"
+    },
+    {
+      "updated_at": "2026-09-26T01:53:54+0800",
+      "monotonic_ms": 284068341.151,
+      "state": "speech_motion_sync_ready",
+      "source_event_id": "a03f4e21",
+      "audio": {
+        "state": "audio_ready",
+        "audio_seconds": 0.56,
+        "monotonic_ms": 284068324.845
+      },
+      "performance_cues": [
+        {
+          "kind": "turn",
+          "start": 0.92,
+          "duration": 0.34,
+          "intensity": 0.8,
+          "source": "她先轻轻转身，望向你，目光里带着柔和的期待，随即低头，露出一个轻轻的笑容。"
+        },
+        {
+          "kind": "look",
+          "start": 0.92,
+          "duration": 0.32,
+          "intensity": 0.75,
+          "source": "她先轻轻转身，望向你，目光里带着柔和的期待，随即低头，露出一个轻轻的笑容。"
+        },
+        {
+          "kind": "lower_head",
+          "start": 0.92,
+          "duration": 0.32,
+          "intensity": 0.8,
+          "source": "她先轻轻转身，望向你，目光里带着柔和的期待，随即低头，露出一个轻轻的笑容。"
+        },
+        {
+          "kind": "smile",
+          "start": 0.92,
+          "duration": 0.46,
+          "intensity": 0.7,
+          "source": "她先轻轻转身，望向你，目光里带着柔和的期待，随即低头，露出一个轻轻的笑容。"
+        }
+      ]
+    },
+    {
+      "updated_at": "2026-09-26T01:53:54+0800",
+      "monotonic_ms": 284068343.472,
+      "state": "speaking",
+      "source_event_id": "f28a53ef",
+      "motion_source_event_id": "a03f4e21",
+      "text": "好。",
+      "audio": {
+        "state": "audio_ready",
+        "audio_seconds": 0.56,
+        "monotonic_ms": 284068324.845
+      }
+    },
+    {
+      "updated_at": "2026-09-26T01:53:55+0800",
+      "monotonic_ms": 284069493.67,
+      "state": "speech_complete",
+      "source_event_id": "f28a53ef",
+      "elapsed_seconds": 1.858,
+      "result": {
+        "audio_seconds": 0.56,
+        "synthesis_seconds": 0.225,
+        "planning_seconds": 0.01,
+        "viseme_frames": 17,
+        "voice_port": 39543,
+        "played": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "verified_at": "2026-09-26T01:23:25+08:00",
+  "provider": "讯飞星辰 MaaS",
+  "connection_profile": "spark-free",
+  "model": "spark-x2.5-4b",
+  "endpoint": "https://maas-api.cn-huabei-1.xf-yun.com/v2",
+  "credential_location": "/home/mozi/yurios-eval/runtime/.env",
+  "credential_env": "YURIOS_MODEL_API_KEY_SPARK",
+  "credential_in_project": false,
+  "yuri_live_retune": true,
+  "chat_thinking": false,
+  "utility_thinking": false,
+  "temperature": 0.85,
+  "max_reply_tokens": 256,
+  "context_length": 262144,
+  "raw_api_seconds": 0.921,
+  "yurios_full_reply_seconds": 2.832,
+  "yurios_test": {
+    "user_id": "0c0f5561",
+    "assistant_id": "f7072e64",
+    "reply": "是的，很快的。",
+    "prompt_tokens": 3169,
+    "output_tokens": 4
+  },
+  "tts": {
+    "synthesis_seconds": 1.072,
+    "audio_seconds": 1.92,
+    "full_worker_seconds": 4.192
+  },
+  "fallback": {
+    "connection_profile": "legacy-default",
+    "model": "lm_studio/agnes-3.0-flash"
+  },
+  "local_qwen27b": {
+    "running": false,
+    "port_8085_listening": false,
+    "reason": "user rejected CPU/RAM offload trial"
+  }
+}

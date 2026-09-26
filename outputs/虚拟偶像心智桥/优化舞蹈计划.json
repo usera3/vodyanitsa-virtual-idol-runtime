@@ -1,0 +1,11 @@
+{
+  "mode": "generate",
+  "action_id": null,
+  "ardy_prompt": "A person stands in place, gently sways the torso to the right, raises the left arm, steps the right foot forward, returns to neutral",
+  "duration_seconds": 5.0,
+  "mask": "full",
+  "loop": false,
+  "confidence": 0.95,
+  "reason": "User requested dancing. The assistant text mentioned a window and floor interaction, which are not in the scene context. I removed these interactions and conver",
+  "assistant_action_text": "她有些拘谨地站在原地，手指轻轻绞在一起，随后小心翼翼地挪到窗边的空地上。她随着雨声轻轻摇曳，动作简单而柔和，脚尖在地板上划出细小的弧线，眼神怯生生地看着你。"
+}

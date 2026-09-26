@@ -1,0 +1,36 @@
+{
+  "test": "real AGI + packaged per-character tag action",
+  "visual_character_test": false,
+  "passed": true,
+  "raw_packets_to_other_actor": 10907,
+  "action_frames": 66,
+  "mixed_bones": 54,
+  "preserved_blends": 18,
+  "selected_actor_status": {
+    "id": "dance-steps-b",
+    "label": "双臂舞步 B",
+    "mask": "upper",
+    "loop": true,
+    "elapsed_seconds": 2.22,
+    "duration_seconds": 5.0
+  },
+  "selected_parts": {
+    "head": {
+      "requested": "action:vesna",
+      "actual": [
+        "action:vesna"
+      ],
+      "fallback": false,
+      "channels": 2
+    },
+    "left_leg": {
+      "requested": "agi",
+      "actual": [
+        "agi"
+      ],
+      "fallback": false,
+      "channels": 4
+    }
+  },
+  "restored": true
+}

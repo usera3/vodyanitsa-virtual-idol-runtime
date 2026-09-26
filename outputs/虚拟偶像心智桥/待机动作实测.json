@@ -1,0 +1,23 @@
+{
+  "found": true,
+  "idle_cue": {
+    "elapsed": 2.53,
+    "cue": "idle:shy",
+    "status": {
+      "updated_at": "2026-09-26T02:12:57+0800",
+      "state": "idle",
+      "frames": 1315,
+      "blinks": 9,
+      "gaze": {
+        "yaw": 3.339,
+        "pitch": -1.79
+      },
+      "port": 39544,
+      "fps": 30.0,
+      "performance_active": [
+        "idle:shy"
+      ]
+    }
+  },
+  "samples": 22
+}

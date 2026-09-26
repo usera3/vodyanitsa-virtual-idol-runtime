@@ -1,0 +1,36 @@
+{
+  "test": "real AGI + packaged per-character tag action",
+  "visual_character_test": false,
+  "passed": true,
+  "raw_packets_to_other_actor": 11057,
+  "action_frames": 66,
+  "mixed_bones": 54,
+  "preserved_blends": 18,
+  "selected_actor_status": {
+    "id": "dance-cmu-05-12",
+    "label": "高举手臂旋身",
+    "mask": "upper",
+    "loop": true,
+    "elapsed_seconds": 2.23,
+    "duration_seconds": 11.3
+  },
+  "selected_parts": {
+    "head": {
+      "requested": "action:vesna",
+      "actual": [
+        "action:vesna"
+      ],
+      "fallback": false,
+      "channels": 2
+    },
+    "left_leg": {
+      "requested": "agi",
+      "actual": [
+        "agi"
+      ],
+      "fallback": false,
+      "channels": 4
+    }
+  },
+  "restored": true
+}

@@ -1,0 +1,53 @@
+         3330401 function calls in 3.352 seconds
+
+   Ordered by: cumulative time
+   List reduced from 107 to 45 due to restriction <45>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       60    0.066    0.001    2.111    0.035 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\vmc_link\main.py:1577(_apply_timer)
+       60    1.186    0.020    1.186    0.020 C:\Users\mozi\Documents\Codex\2026-09-22\codex-threads-01a0c798-e451-7d22-bd56-4\outputs\沃雅妮莎_AGI实时动捕\裙摆物理.py:43(step)
+       60    0.863    0.014    0.866    0.014 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\vmc_link\main.py:170(_apply_arm_direction_pose)
+       60    0.017    0.000    0.712    0.012 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\vmc_link\main.py:1447(_poll_osc_packets)
+    21074    0.042    0.000    0.656    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\.local\lib\python3.13\site-packages\pythonosc\dispatcher.py:305(call_handlers_for_packet)
+     1140    0.039    0.000    0.388    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\vmc_link\main.py:557(_index_by_norm)
+    21074    0.032    0.000    0.334    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\.local\lib\python3.13\site-packages\pythonosc\osc_packet.py:54(__init__)
+    92100    0.067    0.000    0.287    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\vmc_link\main.py:444(_normalize_bone_name)
+    21074    0.007    0.000    0.275    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\.local\lib\python3.13\site-packages\pythonosc\osc_message.py:20(__init__)
+    21074    0.091    0.000    0.268    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\.local\lib\python3.13\site-packages\pythonosc\osc_message.py:28(_parse_datagram)
+     1080    0.005    0.000    0.242    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\vmc_link\main.py:1386(_find_shapekey_name)
+    41891    0.126    0.000    0.209    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\.local\lib\python3.13\site-packages\pythonosc\dispatcher.py:232(handlers_for_address)
+    92100    0.072    0.000    0.184    0.000 {method 'join' of 'str' objects}
+       60    0.001    0.000    0.178    0.003 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\vmc_link\main.py:1324(_find_bone_name)
+   435540    0.077    0.000    0.112    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\vmc_link\main.py:447(<genexpr>)
+    57825    0.060    0.000    0.076    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\.local\lib\python3.13\site-packages\pythonosc\parsing\osc_types.py:52(get_string)
+   114622    0.050    0.000    0.074    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\.local\lib\python3.13\site-packages\pythonosc\parsing\osc_types.py:235(get_float)
+    20817    0.021    0.000    0.064    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\.local\lib\python3.13\site-packages\pythonosc\dispatcher.py:59(invoke)
+       60    0.049    0.001    0.053    0.001 C:\Users\mozi\Documents\Codex\2026-09-22\codex-threads-01a0c798-e451-7d22-bd56-4\outputs\沃雅妮莎_AGI实时动捕\发裙物理.py:87(transfer)
+   605830    0.046    0.000    0.046    0.000 {built-in method builtins.len}
+    21134    0.039    0.000    0.039    0.000 {method 'recvfrom' of '_socket.socket' objects}
+   356400    0.035    0.000    0.035    0.000 {method 'isalnum' of 'str' objects}
+   126444    0.031    0.000    0.031    0.000 {method 'match' of 're.Pattern' objects}
+    56160    0.031    0.000    0.031    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\vmc_link\main.py:1393(<genexpr>)
+    13878    0.021    0.000    0.026    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\vmc_link\main.py:1469(_on_vmc_bone_pos)
+     1140    0.007    0.000    0.022    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\vmc_link\main.py:1286(_resolve_name)
+    34560    0.022    0.000    0.022    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\vmc_link\main.py:1328(<genexpr>)
+       60    0.014    0.000    0.021    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\vmc_link\main.py:1020(_smooth_pose_snapshot)
+    21074    0.006    0.000    0.020    0.000 C:\Users\mozi\Documents\Codex\2026-08-16\wo\work\mmd_auto\vendor\blender\blender-5.2.0-windows-x64\blender-5.2.0-windows-x64\5.2\python\Lib\re\__init__.py:287(compile)
+    94782    0.019    0.000    0.019    0.000 {method 'lower' of 'str' objects}
+    89580    0.017    0.000    0.017    0.000 {method 'setdefault' of 'dict' objects}
+   135422    0.017    0.000    0.017    0.000 {method 'append' of 'list' objects}
+    92100    0.017    0.000    0.017    0.000 {method 'rsplit' of 'str' objects}
+   119505    0.016    0.000    0.016    0.000 {built-in method _struct.unpack}
+    21074    0.010    0.000    0.015    0.000 C:\Users\mozi\Documents\Codex\2026-08-16\wo\work\mmd_auto\vendor\blender\blender-5.2.0-windows-x64\blender-5.2.0-windows-x64\5.2\python\Lib\re\__init__.py:330(_compile)
+    57825    0.011    0.000    0.011    0.000 {method 'decode' of 'bytes' objects}
+    21074    0.004    0.000    0.008    0.000 <string>:1(<lambda>)
+    21074    0.005    0.000    0.008    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\.local\lib\python3.13\site-packages\pythonosc\osc_bundle.py:71(dgram_is_bundle)
+    61423    0.008    0.000    0.008    0.000 {built-in method time.time}
+    37680    0.008    0.000    0.008    0.000 {method 'get' of 'dict' objects}
+    21074    0.004    0.000    0.007    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\.local\lib\python3.13\site-packages\pythonosc\osc_message.py:100(dgram_is_message)
+       60    0.005    0.000    0.007    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\vmc_link\main.py:134(_reconstruct_vmc_positions)
+    20817    0.004    0.000    0.007    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\.local\lib\python3.13\site-packages\pythonosc\osc_message.py:120(__iter__)
+     4626    0.005    0.000    0.006    0.000 C:\Users\mozi\AppData\Roaming\Blender Foundation\Blender\5.2\extensions\user_default\vmc_link\main.py:1530(_on_vmc_blend_val)
+    42148    0.006    0.000    0.006    0.000 {method 'startswith' of 'bytes' objects}
+
+

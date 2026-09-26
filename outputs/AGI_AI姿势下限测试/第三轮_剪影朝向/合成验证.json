@@ -1,0 +1,45 @@
+{
+  "origin": "The same three AI-generated pose images; no human video frames",
+  "fps": 30,
+  "coded_resolution": [
+    720,
+    720
+  ],
+  "seconds_per_pose": 3.0,
+  "segments": [
+    {
+      "start_second": 0,
+      "end_second": 9,
+      "style": "已有效灰度参照",
+      "file": "01_gray.mp4",
+      "sha256": "e97417afc2a2a6d630eba7e94220a42ff61112c10b26b845fa2f0c084df17f1a"
+    },
+    {
+      "start_second": 9,
+      "end_second": 18,
+      "style": "纯黑剪影参照",
+      "file": "02_silhouette.mp4",
+      "sha256": "46cf18fa8e1b949ecc7a68139b19a60d7da1107282bab61f33f88da0575ea1d3"
+    },
+    {
+      "start_second": 18,
+      "end_second": 27,
+      "style": "剪影加面部线索",
+      "file": "03_face.mp4",
+      "sha256": "1ff5de4b0f2b51d82d9f37f2f1e2fb0194200cb72e98ea2217e5fb430c74b4c5"
+    },
+    {
+      "start_second": 27,
+      "end_second": 36,
+      "style": "剪影加面部和胸前线索",
+      "file": "04_face_chest.mp4",
+      "sha256": "4416700d1750dbd7757ce87b7f465d65f4004cd13eaee0e60d9c31d7dcc8fb0b"
+    }
+  ],
+  "combined": {
+    "file": "00_剪影朝向对照_36秒.mp4",
+    "duration_seconds": 36.0,
+    "frames": 1080,
+    "sha256": "a4ca3e988ff9dee03125ed7f697c9a8b8e8fca3e29c0d7adad206e3ca5fe27b3"
+  }
+}

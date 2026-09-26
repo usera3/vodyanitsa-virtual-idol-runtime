@@ -1,0 +1,89 @@
+{
+  "largest_local_finger_steps": [
+    {
+      "bone": "J_Bip_R_Thumb2",
+      "frame": 256,
+      "source_step": 61.35905222013374,
+      "target_step": 61.359093201268756,
+      "error": 4.098113501527223e-05
+    },
+    {
+      "bone": "J_Bip_R_Thumb2",
+      "frame": 257,
+      "source_step": 61.358294069135866,
+      "target_step": 61.358294069135866,
+      "error": 0.0
+    },
+    {
+      "bone": "J_Bip_R_Middle3",
+      "frame": 256,
+      "source_step": 57.869064610878176,
+      "target_step": 57.869064610878176,
+      "error": 0.0
+    },
+    {
+      "bone": "J_Bip_R_Middle3",
+      "frame": 257,
+      "source_step": 57.86836110139366,
+      "target_step": 57.868347441015324,
+      "error": 1.36603783360556e-05
+    },
+    {
+      "bone": "J_Bip_R_Ring3",
+      "frame": 256,
+      "source_step": 50.70707509626996,
+      "target_step": 50.70712290759415,
+      "error": 4.7811324186852744e-05
+    },
+    {
+      "bone": "J_Bip_R_Ring3",
+      "frame": 257,
+      "source_step": 50.70643647358256,
+      "target_step": 50.706470624528414,
+      "error": 3.415094585079714e-05
+    },
+    {
+      "bone": "J_Bip_R_Little3",
+      "frame": 256,
+      "source_step": 46.98281541357754,
+      "target_step": 46.98278126263169,
+      "error": 3.415094585079714e-05
+    },
+    {
+      "bone": "J_Bip_R_Little3",
+      "frame": 257,
+      "source_step": 46.98223484749809,
+      "target_step": 46.982217772025166,
+      "error": 1.707547292539857e-05
+    },
+    {
+      "bone": "J_Bip_R_Little2",
+      "frame": 256,
+      "source_step": 46.69633337412511,
+      "target_step": 46.696350449598036,
+      "error": 1.707547292539857e-05
+    },
+    {
+      "bone": "J_Bip_R_Little2",
+      "frame": 257,
+      "source_step": 46.69574939295107,
+      "target_step": 46.695766468424,
+      "error": 1.707547292539857e-05
+    },
+    {
+      "bone": "J_Bip_R_Middle1",
+      "frame": 256,
+      "source_step": 46.2395883790426,
+      "target_step": 46.2395883790426,
+      "error": 0.0
+    },
+    {
+      "bone": "J_Bip_R_Middle1",
+      "frame": 257,
+      "source_step": 46.239048794098174,
+      "target_step": 46.2390658695711,
+      "error": 1.707547292539857e-05
+    }
+  ],
+  "max_source_target_step_difference": 0.009329091251098598
+}

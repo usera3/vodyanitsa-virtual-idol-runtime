@@ -1,0 +1,78 @@
+{
+  "prompt": "A person begins already standing in a comfortable relaxed posture with both shoulders lowered, both upper arms hanging vertically close against the sides of the torso, elbows softly extended, forearms beside the hips, palms facing the thighs, and both hands below the waist. Throughout the motion both arms and hands stay close to the body and never lift sideways. Only the chest makes one subtle breathing motion and the body makes one tiny weight shift. The final frame must return to the exact same relaxed standing posture and the exact same arm and hand joint rotations as the first frame.",
+  "candidates": [
+    {
+      "seed": 2026092704,
+      "id": "ardy-6140b93167ba1fd70bc7",
+      "file": "ardy-6140b93167ba1fd70bc7.json",
+      "frames": 80,
+      "arm_end_deg": 36.9,
+      "arm_span_deg": 37.2
+    },
+    {
+      "seed": 2026092702,
+      "id": "ardy-f2741f54e54e4b8aabd8",
+      "file": "ardy-f2741f54e54e4b8aabd8.json",
+      "frames": 80,
+      "arm_end_deg": 61.24,
+      "arm_span_deg": 68.14
+    },
+    {
+      "seed": 2026092703,
+      "id": "ardy-da5334c0cbf44de21622",
+      "file": "ardy-da5334c0cbf44de21622.json",
+      "frames": 80,
+      "arm_end_deg": 71.6,
+      "arm_span_deg": 71.6
+    },
+    {
+      "seed": 2026092701,
+      "id": "ardy-8d52c138dbdef360a188",
+      "file": "ardy-8d52c138dbdef360a188.json",
+      "frames": 80,
+      "arm_end_deg": 88.07,
+      "arm_span_deg": 90.4
+    },
+    {
+      "seed": 2026092705,
+      "id": "ardy-8b611ad241c43c1a7367",
+      "file": "ardy-8b611ad241c43c1a7367.json",
+      "frames": 80,
+      "arm_end_deg": 89.57,
+      "arm_span_deg": 92.33
+    },
+    {
+      "seed": 2026092707,
+      "id": "ardy-7437d2ac54a606c5cd23",
+      "file": "ardy-7437d2ac54a606c5cd23.json",
+      "frames": 80,
+      "arm_end_deg": 98.56,
+      "arm_span_deg": 98.56
+    },
+    {
+      "seed": 2026092700,
+      "id": "ardy-4386d7f5bb93da14fe80",
+      "file": "ardy-4386d7f5bb93da14fe80.json",
+      "frames": 80,
+      "arm_end_deg": 101.28,
+      "arm_span_deg": 107.71
+    },
+    {
+      "seed": 2026092706,
+      "id": "ardy-0a1d5381b77aae58899a",
+      "file": "ardy-0a1d5381b77aae58899a.json",
+      "frames": 80,
+      "arm_end_deg": 128.65,
+      "arm_span_deg": 130.87
+    }
+  ],
+  "best": {
+    "seed": 2026092704,
+    "id": "ardy-6140b93167ba1fd70bc7",
+    "file": "ardy-6140b93167ba1fd70bc7.json",
+    "frames": 80,
+    "arm_end_deg": 36.9,
+    "arm_span_deg": 37.2
+  },
+  "acceptable": false
+}

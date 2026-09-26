@@ -1,0 +1,70 @@
+# Generated build and scratch directories
+/build/
+/dist/
+/work/
+
+# Python environments and caches
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+*.py[cod]
+
+# Packaged application runtimes
+**/_internal/
+**/licenses/
+*.exe
+*.dll
+*.pyd
+*.zip
+
+# Runtime output
+*.log
+*.tmp
+*.bak
+*.blend1
+*.blend2
+**/运行状态/
+**/运行状态.json
+**/实时连接状态.json
+**/拟人状态.json
+**/审计记录.jsonl
+**/桥接日志.txt
+**/桥接错误.txt
+
+# Large Blender scenes and local character/model assets
+*.blend
+*.pmx
+*.pmd
+*.vrm
+*.fbx
+*.vmd
+*.vpd
+*.glb
+*.gltf
+*.npz
+*.npy
+*.wav
+*.mp3
+*.flac
+*.mp4
+*.avi
+*.mov
+
+# Large texture and render assets; source metadata remains tracked
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.tga
+*.bmp
+*.exr
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx

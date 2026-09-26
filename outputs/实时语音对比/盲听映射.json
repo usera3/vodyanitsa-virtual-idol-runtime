@@ -1,0 +1,6 @@
+{
+  "A": "Qwen3-TTS-1.7B-Base",
+  "B": "Fun-CosyVoice3-0.5B-2512",
+  "text": "你好，我回来了。刚才让你久等了吗？",
+  "reference": "akari2.wav"
+}
