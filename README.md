@@ -11,6 +11,8 @@ For a fresh clone or an AI taking over the project, follow
 repository from the external models, character assets, packaged executables, and
 secrets that must be supplied locally. Do not start by running every `.cmd` file:
 several launchers intentionally reference paths from the original workstation.
+The exact upstream repositories, model IDs, pinned revisions, and download
+commands are listed in [`EXTERNAL_ASSETS.md`](EXTERNAL_ASSETS.md).
 
 ## Main components
 
