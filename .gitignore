@@ -22,6 +22,7 @@
 *.log
 *.tmp
 *.bak
+*.pid
 *.blend1
 *.blend2
 **/运行状态/
