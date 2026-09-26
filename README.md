@@ -4,6 +4,14 @@ Windows-based virtual idol integration for Vodyanitsa, combining a conversationa
 mind, local speech recognition and synthesis, VMC motion routing, generated
 actions, Blender avatar control, and hair/skirt physics.
 
+## Start here
+
+For a fresh clone or an AI taking over the project, follow
+[`AI_HANDOFF.md`](AI_HANDOFF.md). It separates the runnable source in this
+repository from the external models, character assets, packaged executables, and
+secrets that must be supplied locally. Do not start by running every `.cmd` file:
+several launchers intentionally reference paths from the original workstation.
+
 ## Main components
 
 - `outputs/虚拟偶像心智桥`: hearing, dialogue, embodiment, action planning, and tests
